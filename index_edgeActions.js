@@ -12,6 +12,12 @@
 
    //Edge symbol: 'stage'
    (function(symbolName) {
+      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 0, function(sym, e) {
+         sym.getSymbol("cosmos").stop('anfang');
+
+      });
+      //Edge binding end
+
    })("stage");
    //Edge symbol end:'stage'
 
@@ -20,21 +26,20 @@
    //Edge symbol: 'cosmos'
    (function(symbolName) {
       
-
       
-
+      
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 6000, function(sym, e) {
          sym.stop();
       });
       //Edge binding end
-
+      
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 9000, function(sym, e) {
          console.log(7)
          sym.stop();
-
+      
       });
       //Edge binding end
-
+      
       Symbol.bindElementAction(compId, symbolName, "${cosmos_neu}", "click", function(sym, e) {
          sym.$("sternenGruppe").css({
             'pointer-events': 'auto'
@@ -42,88 +47,89 @@
          sym.stop("anfang2");
       });
       //Edge binding end
-
+      
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 12000, function(sym, e) {
          sym.stop();
       });
       //Edge binding end
-
+      
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 15000, function(sym, e) {
          sym.stop();
       });
       //Edge binding end
-
       
-
       
-
+      
+      
+      
       Symbol.bindElementAction(compId, symbolName, "${perinthia_headline}", "click", function(sym, e) {
          sym.play('anfang');
-
+      
       });
       //Edge binding end
-
+      
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 2000, function(sym, e) {
          sym.stop();
       });
       //Edge binding end
-
+      
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 3000, function(sym, e) {
          sym.stop();
          sterneAktiviert = true;
       });
       //Edge binding end
-
+      
       Symbol.bindElementAction(compId, symbolName, "${perinthia_text}", "click", function(sym, e) {
          sym.play('text');
       });
       //Edge binding end
-
+      
       Symbol.bindElementAction(compId, symbolName, "${ButtonStart}", "click", function(sym, e) {
          if (sym.getPosition() <= 0) {
             sym.play('anfang');
          } else {
             sym.play('text');
          }
+
       });
       //Edge binding end
-
       
-
+      
+      
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 18000, function(sym, e) {
          sym.stop();
       });
       //Edge binding end
-
       
-
       
-
       
-
       
-
       
-
       
-
       
-
       
-
       
-
       
-
       
-
       
-
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 38500, function(sym, e) {
          sym.stop();
       });
       //Edge binding end
-
+      
       Symbol.bindElementAction(compId, symbolName, "${sterne_pudding}", "click", function(sym, e) {
          sym.$("sternenGruppe").css({
             'pointer-events': 'none'
@@ -133,10 +139,10 @@
             scrollTop: 0,
             scrollLeft: 0
          }, 2000, "swing");
-
+      
       });
       //Edge binding end
-
+      
       Symbol.bindElementAction(compId, symbolName, "${sterne_plateau}", "click", function(sym, e) {
          sym.$("sternenGruppe").css({
             'pointer-events': 'none'
@@ -146,24 +152,24 @@
             scrollTop: 0,
             scrollLeft: 0
          }, 2000, "swing");
-
+      
       });
       //Edge binding end
-
+      
       Symbol.bindElementAction(compId, symbolName, "${sterne_hochhaus}", "click", function(sym, e) {
          sym.$("sternenGruppe").css({
             'pointer-events': 'none'
          });
          sym.play('hochhaus');
-         
+      
          sym.getParentSymbol().getSymbolElement().animate({
             scrollTop: 0,
             scrollLeft: 0
          }, 2000, "swing");
-
+      
       });
       //Edge binding end
-
+      
       Symbol.bindElementAction(compId, symbolName, "${sterne_widder}", "click", function(sym, e) {
          sym.$("sternenGruppe").css({
             'pointer-events': 'none'
@@ -173,24 +179,24 @@
             scrollTop: 0,
             scrollLeft: 0
          }, 2000, "swing");
-
+      
       });
       //Edge binding end
-
+      
       Symbol.bindElementAction(compId, symbolName, "${sterne_krebs}", "click", function(sym, e) {
          sym.$("sternenGruppe").css({
             'pointer-events': 'none'
          });
          sym.play('krebs');
-         
+      
          sym.getParentSymbol().getSymbolElement().animate({
             scrollTop: 0,
             scrollLeft: 0
          }, 2000, "swing");
-
+      
       });
       //Edge binding end
-
+      
       Symbol.bindElementAction(compId, symbolName, "${sterne_pool}", "click", function(sym, e) {
          sym.$("sternenGruppe").css({
             'pointer-events': 'none'
@@ -200,10 +206,10 @@
             scrollTop: 0,
             scrollLeft: 0
          }, 2000, "swing");
-
+      
       });
       //Edge binding end
-
+      
       Symbol.bindElementAction(compId, symbolName, "${sterne_zwilling}", "click", function(sym, e) {
          sym.$("sternenGruppe").css({
             'pointer-events': 'none'
@@ -213,10 +219,10 @@
             scrollTop: 0,
             scrollLeft: 0
          }, 2000, "swing");
-
+      
       });
       //Edge binding end
-
+      
       Symbol.bindElementAction(compId, symbolName, "${sterne_steinbock}", "click", function(sym, e) {
          console.log(8)
          sym.$("sternenGruppe").css({
@@ -227,10 +233,10 @@
             scrollTop: 0,
             scrollLeft: 0
          }, 2000, "swing");
-
+      
       });
       //Edge binding end
-
+      
       Symbol.bindElementAction(compId, symbolName, "${sterne_waage}", "click", function(sym, e) {
          sym.$("sternenGruppe").css({
             'pointer-events': 'none'
@@ -240,34 +246,34 @@
             scrollTop: 0,
             scrollLeft: 0
          }, 2000, "swing");
-
+      
       });
       //Edge binding end
-
+      
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 21000, function(sym, e) {
          sym.stop();
-
+      
       });
       //Edge binding end
-
+      
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 24000, function(sym, e) {
          sym.stop()
-
+      
       });
       //Edge binding end
-
+      
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 27000, function(sym, e) {
          sym.stop();
-
+      
       });
       //Edge binding end
-
+      
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 30000, function(sym, e) {
          sym.stop()
-
+      
       });
       //Edge binding end
-
+      
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 4000, function(sym, e) {
          // insert code here
       });

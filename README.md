@@ -1,6 +1,6 @@
 ## Invisible city by Eric Reh
 
 ### Todo
-* Flying bird
+* RM swing transition
 * steinbock
 * pudding

@@ -55,6 +55,8 @@
       
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 15000, function(sym, e) {
          sym.stop();
+         sym.getSymbol("Haus_Waage").play();
+
       });
       //Edge binding end
       
@@ -86,7 +88,7 @@
       
       Symbol.bindElementAction(compId, symbolName, "${ButtonStart}", "click", function(sym, e) {
          if (sym.getPosition() <= 0) {
-            sym.play('anfang');
+            sym.play('anfang2');
          } else {
             sym.play('text');
          }

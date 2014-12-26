@@ -140,7 +140,7 @@
          sym.getParentSymbol().getSymbolElement().animate({
             scrollTop: 0,
             scrollLeft: 0
-         }, 2000, "swing");
+         }, 2000);
       
       });
       //Edge binding end
@@ -153,7 +153,7 @@
          sym.getParentSymbol().getSymbolElement().animate({
             scrollTop: 0,
             scrollLeft: 0
-         }, 2000, "swing");
+         }, 2000);
       
       });
       //Edge binding end
@@ -167,7 +167,7 @@
          sym.getParentSymbol().getSymbolElement().animate({
             scrollTop: 0,
             scrollLeft: 0
-         }, 2000, "swing");
+         }, 2000);
       
       });
       //Edge binding end
@@ -180,7 +180,7 @@
          sym.getParentSymbol().getSymbolElement().animate({
             scrollTop: 0,
             scrollLeft: 0
-         }, 2000, "swing");
+         }, 2000);
       
       });
       //Edge binding end
@@ -194,7 +194,7 @@
          sym.getParentSymbol().getSymbolElement().animate({
             scrollTop: 0,
             scrollLeft: 0
-         }, 2000, "swing");
+         }, 2000);
       
       });
       //Edge binding end
@@ -207,7 +207,7 @@
          sym.getParentSymbol().getSymbolElement().animate({
             scrollTop: 0,
             scrollLeft: 0
-         }, 2000, "swing");
+         }, 2000);
       
       });
       //Edge binding end
@@ -220,7 +220,7 @@
          sym.getParentSymbol().getSymbolElement().animate({
             scrollTop: 0,
             scrollLeft: 0
-         }, 2000, "swing");
+         }, 2000);
       
       });
       //Edge binding end
@@ -234,7 +234,7 @@
          sym.getParentSymbol().getSymbolElement().animate({
             scrollTop: 0,
             scrollLeft: 0
-         }, 2000, "swing");
+         }, 2000);
       
       });
       //Edge binding end
@@ -247,7 +247,7 @@
          sym.getParentSymbol().getSymbolElement().animate({
             scrollTop: 0,
             scrollLeft: 0
-         }, 2000, "swing");
+         }, 2000);
       
       });
       //Edge binding end

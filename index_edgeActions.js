@@ -14,8 +14,11 @@
    (function(symbolName) {
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 0, function(sym, e) {
          sym.getSymbol("cosmos").stop('anfang');
-
+      
       });
+      
+      navigationDisabled = false;
+      
       //Edge binding end
 
    })("stage");
@@ -34,17 +37,27 @@
       //Edge binding end
       
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 9000, function(sym, e) {
-         console.log(7)
          sym.stop();
-      
+         sym.$('cosmos_neu').hide();
+         sym.getSymbol("Haus_Steinbock2").$("pudding1")[0].play();
+         
+         // Hide an element 
+         sym.$("cosmos_neu").hide();
+         
+
       });
       //Edge binding end
       
       Symbol.bindElementAction(compId, symbolName, "${cosmos_neu}", "click", function(sym, e) {
+         if (navigationDisabled) return;
+         
          sym.$("sternenGruppe").css({
             'pointer-events': 'auto'
          });
+         
          sym.stop("anfang2");
+         
+
       });
       //Edge binding end
       
@@ -88,9 +101,9 @@
       
       Symbol.bindElementAction(compId, symbolName, "${ButtonStart}", "click", function(sym, e) {
          if (sym.getPosition() <= 0) {
-            sym.play('anfang2');
-         } else {
             sym.play('text');
+         } else {
+            sym.play('anfang2');
          }
 
       });
@@ -162,13 +175,12 @@
          sym.$("sternenGruppe").css({
             'pointer-events': 'none'
          });
-         sym.play('hochhaus');
-      
+         sym.play("hochhaus");
          sym.getParentSymbol().getSymbolElement().animate({
             scrollTop: 0,
             scrollLeft: 0
          }, 2000);
-      
+
       });
       //Edge binding end
       
@@ -226,7 +238,6 @@
       //Edge binding end
       
       Symbol.bindElementAction(compId, symbolName, "${sterne_steinbock}", "click", function(sym, e) {
-         console.log(8)
          sym.$("sternenGruppe").css({
             'pointer-events': 'none'
          });
@@ -235,7 +246,7 @@
             scrollTop: 0,
             scrollLeft: 0
          }, 2000);
-      
+
       });
       //Edge binding end
       
@@ -254,13 +265,23 @@
       
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 21000, function(sym, e) {
          sym.stop();
-      
+         sym.$('cosmos_neu').hide();
+         sym.getSymbol("Haus_Pudding").$("pudding1")[0].play();
+         
+         navigationDisabled = true;
+
       });
       //Edge binding end
       
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 24000, function(sym, e) {
-         sym.stop()
-      
+         sym.stop();
+         sym.$('cosmos_neu').hide();
+         sym.getSymbol("Haus_Hochaus2").$("hochhaus_destruction")[0].play();
+         
+         // Hide an element 
+         sym.$("cosmos_neu").hide();
+         
+
       });
       //Edge binding end
       
@@ -310,14 +331,6 @@
 
    //=========================================================
    
-   //Edge symbol: 'Haus_Steinbock'
-   (function(symbolName) {   
-   
-   })("Haus_Steinbock");
-   //Edge symbol end:'Haus_Steinbock'
-
-   //=========================================================
-   
    //Edge symbol: 'Haus_Waage'
    (function(symbolName) {   
    
@@ -337,16 +350,46 @@
    
       
 
+      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 0, function(sym, e) {
+         
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${pudding1}", "click", function(sym, e) {
+         sym.$("pudding2").show();
+         sym.$("pudding2")[0].play();
+         
+         
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${pudding2}", "click", function(sym, e) {
+         navigationDisabled = false
+         
+         sym.getComposition().getStage().getSymbol('cosmos').$("cosmos_neu").show();
+         sym.getComposition().getStage().getSymbol('cosmos').$("cosmos_neu").click();
+         
+         // Play the timeline at a label or specific time. For example:
+         // sym.play(500); or sym.play("myLabel");
+         sym.getComposition().getStage().getSymbol("cosmos").stop('anfang2');
+         
+         // Show an element 
+         sym.getComposition().getStage().getSymbol("cosmos").$("sternenGruppe").css({
+            'pointer-events': 'auto'
+         });
+         
+         // Hide an element 
+         sym.$("pudding2").hide();
+         
+         navigationDisabled = false;
+
+      });
+      //Edge binding end
+
    })("Haus_Pudding");
    //Edge symbol end:'Haus_Pudding'
-
-   //=========================================================
-   
-   //Edge symbol: 'Haus_Hochhaus'
-   (function(symbolName) {   
-   
-   })("Haus_Hochhaus");
-   //Edge symbol end:'Haus_Hochhaus'
 
    //=========================================================
    
@@ -364,4 +407,72 @@
    })("Haus_Plateau");
    //Edge symbol end:'Haus_Plateau'
 
-})(window.jQuery || AdobeEdge.$, AdobeEdge, "EDGE-4595408");
+   //=========================================================
+   
+   //Edge symbol: 'Haus_Pudding_1'
+   (function(symbolName) {   
+   
+      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 0, function(sym, e) {
+         // insert code here
+      });
+         //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${pudding1}", "click", function(sym, e) {
+         sym.getComposition().getStage().getSymbol('cosmos').$("cosmos_neu").show();
+         sym.getComposition().getStage().getSymbol('cosmos').$("cosmos_neu").click();
+         sym.getComposition().getStage().getSymbol("cosmos").stop('anfang2');
+         
+         
+         sym.getComposition().getStage().getSymbol("cosmos").$("sternenGruppe").css({
+            'pointer-events': 'auto'
+         });
+         
+         navigationDisabled = false;
+         
+
+      });
+         //Edge binding end
+
+      })("Haus_Steinbock2");
+   //Edge symbol end:'Haus_Steinbock2'
+
+   //=========================================================
+   
+   //Edge symbol: 'Haus_Steinbock2_1'
+   (function(symbolName) {   
+   
+      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 0, function(sym, e) {
+         // insert code here
+      });
+            //Edge binding end
+
+      
+
+      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 1500, function(sym, e) {
+         // insert code here
+         // Play a video track 
+         sym.$("hochhaus_destruction")[0].play();
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${hochhaus_destruction}", "click", function(sym, e) {
+         sym.getComposition().getStage().getSymbol('cosmos').$("cosmos_neu").show();
+         sym.getComposition().getStage().getSymbol('cosmos').$("cosmos_neu").click();
+         sym.getComposition().getStage().getSymbol("cosmos").stop('anfang2');
+         
+         
+         sym.getComposition().getStage().getSymbol("cosmos").$("sternenGruppe").css({
+            'pointer-events': 'auto'
+         });
+         
+         navigationDisabled = false;
+         
+
+      });
+      //Edge binding end
+
+         })("Haus_Hochaus2");
+   //Edge symbol end:'Haus_Hochaus2'
+
+})(window.jQuery || AdobeEdge.$, AdobeEdge, "Eric");

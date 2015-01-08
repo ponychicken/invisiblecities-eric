@@ -1,7 +1,7 @@
 
 {
 
-	"cosmos-Default Timeline_playhead_ms":"0",
+	"expanded:images/hochhaus_glas_nostars.gif":"nil",
 	"symbol_Haus_Pool":{
 		"defaultStageParentHeight":"1024px",
 		"dummyStageParentHeight":"1024px",
@@ -12,387 +12,8 @@
 			"animationEnabled":"false",
 			"timelineColor":"0xeedf79"},
 		"dummyStageParentWidth":"1035px"},
-	"symbol_cosmos":{
-		"element_${hochhaus_destruction_ending}":{
-			"timelineColor2":"0xba5b89",
-			"timelineColor3":"0x734a5f",
-			"animationEnabled":"false",
-			"timelineColor":"0xdb619d"},
-		"element_${sterne_waage}":{
-			"timelineColor2":"0xba5b89",
-			"timelineColor3":"0x734a5f",
-			"timelineColor":"0xdb619d"},
-		"element_${sterne_krebs}":{
-			"timelineColor2":"0x107faa",
-			"timelineColor3":"0x295a6d",
-			"timelineColor":"0x008dc8"},
-		"element_${zwillinge_schaukeln}":{
-			"timelineColor2":"0xb099ce",
-			"timelineColor3":"0x70657c",
-			"animationEnabled":"false",
-			"timelineColor":"0xceaef4"},
-		"element_${sterne_pool}":{
-			"timelineColor2":"0x5a558a",
-			"timelineColor3":"0x4a485e",
-			"timelineColor":"0x63599f"},
-		"element_${sterne_pudding}":{
-			"timelineColor2":"0x1aa38f",
-			"timelineColor3":"0x2a6a61",
-			"timelineColor":"0x00bda4"},
-		"element_${Rectangle2}":{
-			"timelineColor2":"0xd8b467",
-			"timelineColor3":"0x81714f",
-			"animationEnabled":"false",
-			"timelineColor":"0xffd46d"},
-		"element_${sterne_krebsCopy}":{
-			"timelineColor2":"0xcbbd71",
-			"timelineColor3":"0x7b7652",
-			"timelineColor":"0xeedf79"},
-		"element_${hauszwilling_ohneschaukelCopy}":{
-			"timelineColor2":"0xd35d6e",
-			"timelineColor3":"0x7e4b52",
-			"animationEnabled":"false",
-			"timelineColor":"0xfb657a"},
-		"element_${vogelflug_small}":{
-			"timelineColor2":"0x107faa",
-			"animationEnabled":"false",
-			"timelineColor3":"0x295a6d",
-			"timelineColor":"0x008dc8"},
-		"element_${plateau_fin_sterne2}":{
-			"timelineColor2":"0x5a558a",
-			"timelineColor3":"0x4a485e",
-			"timelineColor":"0x63599f"},
-		"element_${cosmos_neu}":{
-			"timelineColor2":"0x81aa62",
-			"timelineColor3":"0x5b6c4d",
-			"timelineColor":"0x91c767",
-			"animationEnabled":"true",
-			"invisible":"false"},
-		"defaultStageParentHeight":"2048px",
-		"element_${Haus_Plateau}":{
-			"timelineColor2":"0x1aa38f",
-			"timelineColor3":"0x2a6a61",
-			"animationEnabled":"true",
-			"timelineColor":"0x00bda4"},
-		"element_${plateau_fin_sterne22}":{
-			"timelineColor2":"0x326a96",
-			"timelineColor3":"0x385063",
-			"animationEnabled":"false",
-			"timelineColor":"0x2f73ad"},
-		"element_${hochhaus_glas_starsonly}":{
-			"timelineColor2":"0x1095d2",
-			"timelineColor3":"0x29647e",
-			"animationEnabled":"false",
-			"timelineColor":"0x00a9fa"},
-		"element_${perinthia-headline}":{
-			"timelineColor2":"0x81aa62",
-			"timelineColor3":"0x5b6c4d",
-			"animationEnabled":"true",
-			"timelineColor":"0x91c767"},
-		"element_${plateau_fin_sterne22Copy}":{
-			"timelineColor2":"0x5a558a",
-			"timelineColor3":"0x4a485e",
-			"timelineColor":"0x63599f"},
-		"element_${Haus_Hochhaus}":{
-			"timelineColor2":"0xb099ce",
-			"timelineColor3":"0x70657c",
-			"animationEnabled":"true",
-			"timelineColor":"0xceaef4"},
-		"element_${haus_krebs_klein}":{
-			"timelineColor2":"0x1aa38f",
-			"timelineColor3":"0x2a6a61",
-			"timelineColor":"0x00bda4"},
-		"element_${sterne_waage_small}":{
-			"timelineColor2":"0xcbbd71",
-			"timelineColor3":"0x7b7652",
-			"animationEnabled":"false",
-			"timelineColor":"0xeedf79"},
-		"element_${canvas}":{
-			"timelineColor2":"0x107faa",
-			"timelineColor3":"0x295a6d",
-			"timelineColor":"0x008dc8",
-			"animationEnabled":"true",
-			"invisible":"false",
-			"epOpened":"true"},
-		"element_${Haus_Pool}":{
-			"timelineColor2":"0x81aa62",
-			"timelineColor3":"0x5b6c4d",
-			"animationEnabled":"true",
-			"timelineColor":"0x91c767"},
-		"element_${hochhaus_glas_starsonlyCopy}":{
-			"timelineColor2":"0xb099ce",
-			"timelineColor3":"0x70657c",
-			"timelineColor":"0xceaef4"},
-		"element_${Sterne2}":{
-			"timelineColor2":"0x81aa62",
-			"timelineColor3":"0x5b6c4d",
-			"animationEnabled":"false",
-			"timelineColor":"0x91c767"},
-		"element_${sterne_steinbock}":{
-			"timelineColor2":"0xd35d6e",
-			"timelineColor3":"0x7e4b52",
-			"timelineColor":"0xfb657a"},
-		"defaultStageParentWidth":"1536px",
-		"element_${steinbock}":{
-			"timelineColor2":"0x1095d2",
-			"timelineColor3":"0x29647e",
-			"animationEnabled":"false",
-			"timelineColor":"0x00a9fa"},
-		"element_${Haus_Zwilling}":{
-			"timelineColor2":"0x5a558a",
-			"timelineColor3":"0x4a485e",
-			"animationEnabled":"true",
-			"timelineColor":"0x63599f"},
-		"element_${linie_widder}":{
-			"timelineColor2":"0x5a558a",
-			"timelineColor3":"0x4a485e",
-			"timelineColor":"0x63599f",
-			"timelineTreeOpened":"false",
-			"animationEnabled":"false"},
-		"element_${perinthia_headline}":{
-			"timelineColor2":"0xba5b89",
-			"timelineColor3":"0x734a5f",
-			"animationEnabled":"true",
-			"timelineColor":"0xdb619d"},
-		"element_${sterne_hochhaus}":{
-			"timelineColor2":"0x326a96",
-			"timelineColor3":"0x385063",
-			"timelineColor":"0x2f73ad"},
-		"element_${sterne_krebs_klein}":{
-			"timelineColor2":"0x5a558a",
-			"timelineColor3":"0x4a485e",
-			"animationEnabled":"false",
-			"timelineColor":"0x63599f"},
-		"element_${haus_krebs_klein2}":{
-			"timelineColor2":"0x326a96",
-			"timelineColor3":"0x385063",
-			"animationEnabled":"false",
-			"timelineColor":"0x2f73ad"},
-		"element_${plateau_fin_ohnesterne}":{
-			"timelineColor2":"0x168c84",
-			"timelineColor3":"0x2a605c",
-			"animationEnabled":"false",
-			"timelineColor":"0x00a096"},
-		"element_${Haus_Steinbock}":{
-			"timelineColor2":"0x1aa38f",
-			"timelineColor3":"0x2a6a61",
-			"animationEnabled":"true",
-			"timelineColor":"0x00bda4"},
-		"element_${haus-zwilling}":{
-			"timelineColor2":"0xcbbd71",
-			"timelineColor3":"0x7b7652",
-			"timelineColor":"0xeedf79",
-			"animationEnabled":"false",
-			"invisible":"true"},
-		"element_${cosmos_neuCopy}":{
-			"timelineColor2":"0x326a96",
-			"animationEnabled":"false",
-			"timelineColor3":"0x385063",
-			"timelineColor":"0x2f73ad"},
-		"element_${Haus_Waage}":{
-			"timelineColor2":"0x326a96",
-			"timelineColor3":"0x385063",
-			"timelineColor":"0x2f73ad",
-			"animationEnabled":"true",
-			"invisible":"false"},
-		"element_${Haus_Pudding}":{
-			"timelineColor2":"0x107faa",
-			"timelineColor3":"0x295a6d",
-			"timelineColor":"0x008dc8",
-			"animationEnabled":"true",
-			"invisible":"false"},
-		"element_${poolhouse_starCopy}":{
-			"timelineColor2":"0xd8b467",
-			"timelineColor3":"0x81714f",
-			"timelineColor":"0xffd46d"},
-		"element_${poolhouse_star}":{
-			"timelineColor2":"0xb099ce",
-			"timelineColor3":"0x70657c",
-			"animationEnabled":"false",
-			"timelineColor":"0xceaef4"},
-		"element_${sterne_steinbock_kleinCopy}":{
-			"timelineColor2":"0x81aa62",
-			"timelineColor3":"0x5b6c4d",
-			"timelineColor":"0x91c767"},
-		"element_${leo}":{
-			"timelineColor2":"0x168c84",
-			"timelineColor3":"0x2a605c",
-			"animationEnabled":"false",
-			"timelineColor":"0x00a096"},
-		"element_${haus-steinbock}":{
-			"timelineColor2":"0x168c84",
-			"timelineColor3":"0x2a605c",
-			"animationEnabled":"false",
-			"timelineColor":"0x00a096"},
-		"element_${Haus_Krebs}":{
-			"timelineColor2":"0x168c84",
-			"timelineColor3":"0x2a605c",
-			"timelineColor":"0x00a096",
-			"animationEnabled":"true",
-			"invisible":"false"},
-		"element_${Text2}":{
-			"timelineColor2":"0xd35d6e",
-			"timelineColor3":"0x7e4b52",
-			"animationEnabled":"false",
-			"timelineColor":"0xfb657a"},
-		"element_${Rectangle}":{
-			"timelineColor2":"0xd35d6e",
-			"timelineColor3":"0x7e4b52",
-			"timelineColor":"0xfb657a",
-			"animationEnabled":"false",
-			"invisible":"false"},
-		"element_${perinthia_text}":{
-			"timelineColor2":"0xcbbd71",
-			"timelineColor3":"0x7b7652",
-			"timelineColor":"0xeedf79",
-			"timelineTreeOpened":"true",
-			"animationEnabled":"true"},
-		"element_${hochhaus_destruction_small2}":{
-			"timelineColor2":"0xd8b467",
-			"timelineColor3":"0x81714f",
-			"animationEnabled":"false",
-			"timelineColor":"0xffd46d"},
-		"element_${sterne_plateau}":{
-			"timelineColor2":"0x168c84",
-			"timelineColor3":"0x2a605c",
-			"timelineColor":"0x00a096"},
-		"element_${Group2}":{
-			"timelineColor2":"0x4fa275",
-			"timelineColor3":"0x456a55",
-			"animationEnabled":"false",
-			"timelineColor":"0x50bd82"},
-		"element_${waldhuette2}":{
-			"timelineColor2":"0x4fa275",
-			"timelineColor3":"0x456a55",
-			"animationEnabled":"false",
-			"timelineColor":"0x50bd82"},
-		"element_${hochhaus_destruction_small}":{
-			"timelineColor2":"0x81aa62",
-			"timelineColor3":"0x5b6c4d",
-			"timelineTreeOpened":"true",
-			"timelineColor":"0x91c767"},
-		"element_${haus-waage}":{
-			"timelineColor2":"0x1095d2",
-			"timelineColor3":"0x29647e",
-			"animationEnabled":"false",
-			"timelineColor":"0x00a9fa"},
-		"element_${leoCopy}":{
-			"timelineColor2":"0x107faa",
-			"timelineColor3":"0x295a6d",
-			"timelineColor":"0x008dc8"},
-		"element_${sterne_krebs_klein2}":{
-			"timelineColor2":"0x4fa275",
-			"timelineColor3":"0x456a55",
-			"animationEnabled":"false",
-			"timelineColor":"0x50bd82"},
-		"element_${sterne_steinbock_klein}":{
-			"timelineColor2":"0xd8b467",
-			"timelineColor3":"0x81714f",
-			"animationEnabled":"false",
-			"timelineColor":"0xffd46d"},
-		"element_${sterne_widderCopy}":{
-			"timelineColor2":"0xd35d6e",
-			"timelineColor3":"0x7e4b52",
-			"timelineColor":"0xfb657a"},
-		"element_${sternenGruppe}":{
-			"timelineColor2":"0x1095d2",
-			"timelineColor3":"0x29647e",
-			"timelineColor":"0x00a9fa",
-			"timelineTreeOpened":"false",
-			"animationEnabled":"false",
-			"invisible":"false",
-			"epOpened":"true"},
-		"element_${sterne_zwilling_kleinCopy}":{
-			"timelineColor2":"0xcbbd71",
-			"timelineColor3":"0x7b7652",
-			"timelineColor":"0xeedf79"},
-		"element_${linie_widder2}":{
-			"timelineColor2":"0xb099ce",
-			"timelineColor3":"0x70657c",
-			"animationEnabled":"false",
-			"timelineColor":"0xceaef4"},
-		"element_${Text}":{
-			"timelineColor2":"0xb099ce",
-			"timelineColor3":"0x70657c",
-			"timelineColor":"0xceaef4"},
-		"dummyStageParentHeight":"2048px",
-		"element_${poolhouse_withoutstar}":{
-			"timelineColor2":"0xba5b89",
-			"timelineColor3":"0x734a5f",
-			"animationEnabled":"false",
-			"timelineColor":"0xdb619d"},
-		"element_${poolhouse_withoutstar2}":{
-			"timelineColor2":"0x4fa275",
-			"timelineColor3":"0x456a55",
-			"animationEnabled":"false",
-			"timelineColor":"0x50bd82"},
-		"element_${Sterne}":{
-			"timelineColor2":"0xd35d6e",
-			"timelineColor3":"0x7e4b52",
-			"animationEnabled":"false",
-			"timelineColor":"0xfb657a"},
-		"element_${haus_steinbock_klein}":{
-			"timelineColor2":"0xd8b467",
-			"timelineColor3":"0x81714f",
-			"animationEnabled":"false",
-			"timelineColor":"0xffd46d"},
-		"element_${sterne_waage_smallCopy}":{
-			"timelineColor2":"0x4fa275",
-			"timelineColor3":"0x456a55",
-			"timelineColor":"0x50bd82"},
-		"element_${sterne_krebs_kleinCopy}":{
-			"timelineColor2":"0xba5b89",
-			"timelineColor3":"0x734a5f",
-			"timelineColor":"0xdb619d"},
-		"element_${hochhaus_glas_nostars}":{
-			"timelineColor2":"0xd35d6e",
-			"timelineColor3":"0x7e4b52",
-			"animationEnabled":"false",
-			"timelineColor":"0xfb657a"},
-		"element_${haus-pudding}":{
-			"timelineColor2":"0x5a558a",
-			"timelineColor3":"0x4a485e",
-			"animationEnabled":"false",
-			"timelineColor":"0x63599f"},
-		"element_${Haus_Widder}":{
-			"timelineColor2":"0x81aa62",
-			"timelineColor3":"0x5b6c4d",
-			"timelineColor":"0x91c767",
-			"animationEnabled":"true",
-			"invisible":"false",
-			"scrubbingEnabled":"true"},
-		"dummyStageParentWidth":"1536px",
-		"element_${sterne_zwilling_klein}":{
-			"timelineColor2":"0xba5b89",
-			"timelineColor3":"0x734a5f",
-			"animationEnabled":"false",
-			"timelineColor":"0xdb619d"},
-		"element_${ButtonStart}":{
-			"timelineColor2":"0x1aa38f",
-			"timelineColor3":"0x2a6a61",
-			"timelineColor":"0x00bda4",
-			"timelineTreeOpened":"true",
-			"animationEnabled":"true",
-			"invisible":"true"},
-		"element_${haus_zwilling_klein}":{
-			"timelineColor2":"0x81aa62",
-			"timelineColor3":"0x5b6c4d",
-			"animationEnabled":"false",
-			"timelineColor":"0x91c767"},
-		"element_${sterne_widder}":{
-			"timelineColor2":"0x1095d2",
-			"timelineColor3":"0x29647e",
-			"timelineColor":"0x00a9fa"},
-		"element_${sterne_zwilling}":{
-			"timelineColor2":"0xb099ce",
-			"timelineColor3":"0x70657c",
-			"timelineColor":"0xceaef4"},
-		"element_${hauszwilling_ohneschaukel}":{
-			"timelineColor2":"0x168c84",
-			"timelineColor3":"0x2a605c",
-			"animationEnabled":"false",
-			"timelineColor":"0x00a096"}},
-	"expanded:images/waldhuette.gif":"nil",
+	"expanded:images/cosmos_neu.jpg":"nil",
+	"expanded:images/untitled%20folder/images/10.gif":"nil",
 	"symbol_haus-steinbock":{
 		"element_${haus_steinbock_klein}":{
 			"timelineColor2":"0xb099ce",
@@ -432,22 +53,12 @@
       \"Default Timeline\": {\
       }\
    }},\
-\"Haus_Steinbock\": {\
-   \"timelines\": {\
-      \"Default Timeline\": {\
-      }\
-   }},\
 \"Haus_Waage\": {\
    \"timelines\": {\
       \"Default Timeline\": {\
       }\
    }},\
 \"Haus_Pudding\": {\
-   \"timelines\": {\
-      \"Default Timeline\": {\
-      }\
-   }},\
-\"Haus_Hochhaus\": {\
    \"timelines\": {\
       \"Default Timeline\": {\
       }\
@@ -462,6 +73,16 @@
       \"Default Timeline\": {\
       }\
    }},\
+\"Haus_Steinbock2\": {\
+   \"timelines\": {\
+      \"Default Timeline\": {\
+      }\
+   }},\
+\"Haus_Hochaus2\": {\
+   \"timelines\": {\
+      \"Default Timeline\": {\
+      }\
+   }},\
 \"Preloader\": {\
    \"timelines\": {\
 \
@@ -471,8 +92,8 @@
 \
    }}\
 }",
-	"pref__general__AutoKeyframePropertiesArmed":"true",
-	"expanded:images/untitled%20folder/images/02.gif":"nil",
+	"pref__general__AutoKeyframePropertiesArmed":"false",
+	"expanded:images/untitled%20folder/images/12.gif":"nil",
 	"perinthia-headline-Default Timeline_playhead_ms":"0",
 	"expanded:images/haus_pudding_spritesheet22.jpg":"nil",
 	"expanded:images/plateau_fin_ohnesterne-new.gif":"nil",
@@ -499,26 +120,30 @@
 	"Sterne-Default Timeline_playhead_ms":"0",
 	"Haus_Waage-Default Timeline_playhead_ms":"0",
 	"expanded:images/perinthia_headline2.png":"nil",
+	"expanded:images/hochhaus_destruction.jpg":"nil",
 	"pref__general__FilterNonAnimatedElements":"false",
 	"expanded:images/perinthia_text_vonhand_small.png":"nil",
-	"expanded:images/untitled%20folder/images/01.gif":"nil",
+	"expanded:untitled%20folder/":"nil",
+	"mediagroup_media/hochhaus_destruction.mp4":"hochhaus_destruction",
 	"expanded:images/untitled%20folder/images/08.gif":"nil",
 	"expanded:images/haus_krebs_klein.png":"nil",
-	"StageZoomFactor":"10",
-	"pixelsPerMs":"0.029837456648458",
+	"StageZoomFactor":"23",
+	"expanded:images/haus_waage_newone_small-new.jpg":"nil",
 	"expanded:images/hochhaus_destruction_ending.gif":"nil",
-	"expanded:images/sterne_widder.png":"nil",
+	"expanded:media/pudding1.mp4":"false",
 	"expanded:images/plateau_fin_sterne.gif":"nil",
 	"expanded:images/haus_pudding_spritesheet2.jpg":"nil",
 	"expanded:images/cosmos_neu.png":"nil",
 	"expanded:images/vogelflug_small.png":"nil",
+	"mediagroup_media/pudding1.mp4":"pudding1",
+	"Haus_Hochaus2-Default Timeline_playhead_ms":"0",
 	"expanded:images/untitled%20folder/images/07.gif":"nil",
 	"expanded:images/hauszwilling_ohneschaukel.jpg":"nil",
 	"Haus_Pudding-Default Timeline_playhead_ms":"0",
 	"expanded:images/haus_waage_newone_sterne.gif":"nil",
 	"expanded:images/untitled%20folder/images/06.gif":"nil",
 	"expanded:images/linie_widder.png":"nil",
-	"TransitionIdCounter":"388",
+	"TransitionIdCounter":"401",
 	"viewStartY":"0",
 	"expanded:images/hochhaus_glas_stars.gif":"nil",
 	"Haus_Hochhaus-Default Timeline_playhead_ms":"0",
@@ -561,19 +186,39 @@
 			"animationEnabled":"false",
 			"timelineColor":"0x63599f"},
 		"defaultStageParentHeight":"1139px"},
-	"expanded:images/hochhaus_destruction_final2_ending.gif":"nil",
-	"cosmos-Default Timeline_mark_ms":"-1",
-	"symbol_Haus_Hochhaus":{
-		"element_${hochhaus_glas_nostars}":{
-			"timelineColor2":"0x1aa38f",
-			"timelineColor3":"0x2a6a61",
-			"animationEnabled":"false",
-			"timelineColor":"0x00bda4"},
-		"element_${hochhaus_destruction_small2}":{
+	"expanded:images/sterne_leo_small.gif":"nil",
+	"symbol_Haus_Pudding":{
+		"dummyStageParentWidth":"854px",
+		"dummyStageParentHeight":"1139px",
+		"element_${pudding2}":{
 			"timelineColor2":"0x4fa275",
 			"timelineColor3":"0x456a55",
-			"animationEnabled":"false",
+			"animationEnabled":"true",
 			"timelineColor":"0x50bd82"},
+		"element_${haus_pudding}":{
+			"timelineColor2":"0x168c84",
+			"timelineColor3":"0x2a605c",
+			"timelineColor":"0x00a096"},
+		"element_${haus-pudding}":{
+			"timelineColor2":"0xd35d6e",
+			"timelineColor3":"0x7e4b52",
+			"animationEnabled":"false",
+			"timelineColor":"0xfb657a"},
+		"defaultStageParentHeight":"1139px",
+		"defaultStageParentWidth":"854px",
+		"element_${pudding1}":{
+			"timelineColor2":"0x81aa62",
+			"timelineColor3":"0x5b6c4d",
+			"timelineColor":"0x91c767",
+			"animationEnabled":"false",
+			"invisible":"true",
+			"VideoPosterImageTakenBy":"PosterImageNameImplementer"},
+		"element_${Rectangle}":{
+			"timelineColor2":"0xd35d6e",
+			"timelineColor3":"0x7e4b52",
+			"timelineColor":"0xfb657a"}},
+	"symbol_Haus_Hochhaus":{
+		"dummyStageParentWidth":"665px",
 		"element_${hochhaus_destruction_ending}":{
 			"timelineColor2":"0x326a96",
 			"timelineColor3":"0x385063",
@@ -581,19 +226,35 @@
 			"animationEnabled":"false",
 			"invisible":"true"},
 		"dummyStageParentHeight":"820px",
-		"defaultStageParentWidth":"665px",
-		"defaultStageParentHeight":"820px",
-		"dummyStageParentWidth":"665px",
 		"element_${hochhaus}":{
 			"timelineColor2":"0x326a96",
 			"timelineColor3":"0x385063",
-			"timelineColor":"0x2f73ad"}},
+			"animationEnabled":"false",
+			"timelineColor":"0x2f73ad"},
+		"element_${hochhaus_glas_nostars}":{
+			"timelineColor2":"0x1aa38f",
+			"timelineColor3":"0x2a6a61",
+			"animationEnabled":"false",
+			"timelineColor":"0x00bda4"},
+		"defaultStageParentWidth":"665px",
+		"element_${hochhaus_destruction}":{
+			"timelineColor2":"0xba5b89",
+			"timelineColor3":"0x734a5f",
+			"timelineColor":"0xdb619d"},
+		"element_${hochhaus_destruction_small2}":{
+			"timelineColor2":"0x4fa275",
+			"timelineColor3":"0x456a55",
+			"animationEnabled":"false",
+			"timelineColor":"0x50bd82"},
+		"defaultStageParentHeight":"820px"},
 	"expanded:images/sterne_krebs_small.gif":"nil",
-	"expanded:images/poolhouse_withoutstar.gif":"nil",
+	"expanded:images/zwillinge_schaukeln_whiteback.gif":"nil",
+	"mediagroup_media/steinbock-n.mp4":"steinbock-n",
 	"expanded:images/haus_steinbock_klein-new.jpg":"nil",
 	"expanded:images/haus_steinbock_klein.jpg":"nil",
-	"nextElementColorIndex":"2",
+	"nextElementColorIndex":"4",
 	"pref__general__GenerateSmoothTransitions":"true",
+	"mediagroup_media/pudding2.mp4":"pudding2",
 	"expanded:images/untitled%20folder/images/14.gif":"nil",
 	"HTMLFileName":"index.html",
 	"symbol_Haus_Plateau":{
@@ -606,7 +267,29 @@
 		"dummyStageParentHeight":"1159px",
 		"defaultStageParentWidth":"869px",
 		"defaultStageParentHeight":"1159px"},
+	"expanded:media/hochhaus_destruction.mp4":"false",
 	"expanded:images/hochhaus_destruction_final2_ending-new.gif":"nil",
+	"symbol_Haus_Hochaus2":{
+		"defaultStageParentHeight":"1139px",
+		"element_${pudding1}":{
+			"timelineColor2":"0xcbbd71",
+			"timelineColor3":"0x7b7652",
+			"animationEnabled":"false",
+			"timelineColor":"0xeedf79"},
+		"dummyStageParentHeight":"1139px",
+		"defaultStageParentWidth":"854px",
+		"element_${hochhaus_destruction}":{
+			"timelineColor2":"0x4fa275",
+			"timelineColor3":"0x456a55",
+			"VideoPosterImageTakenBy":"PosterImageNameImplementer",
+			"timelineColor":"0x50bd82"},
+		"element_${haus_pudding}":{
+			"timelineColor2":"0x81aa62",
+			"timelineColor3":"0x5b6c4d",
+			"animationEnabled":"false",
+			"timelineColor":"0x91c767"},
+		"dummyStageParentWidth":"854px"},
+	"expanded:media/steinbock-n.mp4":"false",
 	"symbol_perinthia-headline":{},
 	"expanded:images/poolhouse_star.gif":"nil",
 	"expanded:images/leo.png":"nil",
@@ -677,16 +360,10 @@
 		"dummyStageParentHeight":"3442px"},
 	"expanded:images/sterne_krebs_klein.png":"nil",
 	"Haus_Steinbock-Default Timeline_playhead_ms":"0",
+	"mediagroup_media/steinbock%202.mp4":"steinbock 2",
 	"expanded:images/hauszwilling_doppelt.jpg":"nil",
 	"expanded:images/zwillinge_schaukeln.gif":"nil",
-	"expanded:images/untitled%20folder/images/03.gif":"nil",
-	"pref__general__AutoKeyframeProperties":"false",
-	"expanded:images/haus_waage_newone_small.jpg":"nil",
-	"haus-steinbock-Default Timeline_playhead_ms":"0",
-	"expanded:images/plateau_fin_sterne22.gif":"nil",
-	"viewStartMs":"-167.57460021973",
-	"expanded:images/haus_zwilling_klein.png":"nil",
-	"expanded:images/untitled%20folder/images/05.gif":"nil",
+	"expanded:images/haus_steinbock.jpg":"nil",
 	"symbol_Haus_Krebs":{
 		"dummyStageParentWidth":"854px",
 		"element_${haus_krebs_klein-new}":{
@@ -701,73 +378,28 @@
 			"timelineColor3":"0x2a605c",
 			"animationEnabled":"false",
 			"timelineColor":"0x00a096"}},
-	"expanded:images/hochhaus_glas_stars-new.gif":"nil",
-	"expanded:images/perinthia_headline2_small.png":"nil",
-	"expanded:images/cosmos-new.jpg":"nil",
+	"expanded:images/untitled%20folder/images/05.gif":"nil",
+	"expanded:images/untitled%20folder/images/03.gif":"nil",
+	"pref__general__AutoKeyframeProperties":"false",
+	"expanded:images/hochhaus_glas_starsonly.gif":"nil",
+	"expanded:media/hochhaus.mp4":"false",
+	"expanded:images/haus_waage_newone_small.jpg":"nil",
+	"haus-steinbock-Default Timeline_playhead_ms":"0",
+	"expanded:images/plateau_fin_sterne22.gif":"nil",
 	"Haus_Pool-Default Timeline_playhead_ms":"0",
+	"expanded:images/hochhaus_glas_stars-new.gif":"nil",
+	"expanded:images/untitled%20folder/images/11.gif":"nil",
+	"expanded:media/pudding2.mp4":"false",
+	"Haus_Steinbock2-Default Timeline_playhead_ms":"0",
+	"expanded:images/plateau_fin_sterne2.gif":"nil",
+	"expanded:images/perinthia_headline2_small.png":"nil",
+	"expanded:images/zwillinge_schaukeln-new.gif":"nil",
+	"expanded:images/sterne_steinbock_klein.png":"nil",
 	"haus-zwilling-Default Timeline_playhead_ms":"0",
 	"expanded:images/hochhaus_destruction_small-new.png":"nil",
-	"expanded:images/haus_steinbock_klein.png":"nil",
-	"expanded:images/sterne_leo_small.gif":"nil",
-	"expanded:images/hochhaus_glas_nostars.gif":"nil",
-	"expanded:images/zwillinge_schaukeln-new.gif":"nil",
-	"expanded:images/untitled%20folder/images/11.gif":"nil",
-	"symbol_Haus_Pudding":{
-		"dummyStageParentWidth":"854px",
-		"dummyStageParentHeight":"1139px",
-		"defaultStageParentWidth":"854px",
-		"defaultStageParentHeight":"1139px",
-		"element_${haus-pudding}":{
-			"timelineColor2":"0xd35d6e",
-			"timelineColor3":"0x7e4b52",
-			"animationEnabled":"false",
-			"timelineColor":"0xfb657a"}},
-	"symbol_Haus_Widder":{
-		"defaultStageParentHeight":"1254px",
-		"dummyStageParentHeight":"1254px",
-		"defaultStageParentWidth":"1000px",
-		"element_${waldhuette2}":{
-			"timelineColor2":"0x1095d2",
-			"timelineColor3":"0x29647e",
-			"animationEnabled":"false",
-			"timelineColor":"0x00a9fa"},
-		"dummyStageParentWidth":"1000px"},
-	"expanded:images/haus_krebs_klein-new.jpg":"nil",
-	"expanded:images/sterne_zwilling_small.gif":"nil",
-	"symbol_Haus_Steinbock":{
-		"element_${steinbock}":{
-			"timelineColor2":"0xd8b467",
-			"timelineColor3":"0x81714f",
-			"animationEnabled":"true",
-			"timelineColor":"0xffd46d"},
-		"dummyStageParentWidth":"854px",
-		"element_${haus-steinbock}":{
-			"timelineColor2":"0xba5b89",
-			"timelineColor3":"0x734a5f",
-			"timelineColor":"0xdb619d",
-			"animationEnabled":"false",
-			"invisible":"true"},
-		"dummyStageParentHeight":"1139px",
-		"defaultStageParentWidth":"854px",
-		"defaultStageParentHeight":"1139px"},
-	"expanded:images/sterne_steinbock%20_small.gif":"nil",
-	"expanded:images/cosmos_neu.jpg":"nil",
-	"Haus_Zwilling-Default Timeline_playhead_ms":"0",
-	"Haus_Plateau-Default Timeline_playhead_ms":"0",
-	"expanded:untitled%20folder/":"nil",
-	"expanded:media/steinbock.mp4":"false",
-	"haus_pudding_spritesheet2_symbol_1-Default Timeline_playhead_ms":"0",
-	"expanded:images/hauszwilling_doppelt.png":"nil",
-	"expanded:images/untitled%20folder/images/10.gif":"nil",
-	"expanded:images/plateau_fin_sterne2.gif":"nil",
-	"expanded:images/perinthia_text.png":"nil",
-	"expanded:images/hochhaus_glas_starsonly.gif":"nil",
-	"expanded:images/zwillinge_schaukeln_whiteback.gif":"nil",
-	"expanded:images/hauspudding_spritesheet.png":"nil",
-	"expanded:images/untitled%20folder/images/04.gif":"nil",
-	"expanded:media/hochhaus.mp4":"false",
-	"expanded:images/poolhouse_withoutstar-new.gif":"nil",
-	"expanded:images/perinthia_text_vonhand.png":"nil",
+	"expanded:images/haus_pudding.jpg":"nil",
+	"expanded:images/perinthia_headline.png":"nil",
+	"expanded:images/poolhouse_withoutstar.gif":"nil",
 	"expanded:images/hauszwilling_ohneschaukel-new.jpg":"nil",
 	"symbol_haus_pudding_spritesheet2_symbol_1":{
 		"dummyStageParentWidth":"1536px",
@@ -779,19 +411,478 @@
 			"timelineColor3":"0x734a5f",
 			"animationEnabled":"true",
 			"timelineColor":"0xdb619d"}},
-	"stage-Default Timeline_playhead_ms":"0",
-	"expanded:images/untitled%20folder/images/13.gif":"nil",
-	"PreloadAudio":"auto",
-	"Haus_Krebs-Default Timeline_playhead_ms":"0",
+	"expanded:media/steinbock%202.mp4":"false",
+	"symbol_Haus_Widder":{
+		"defaultStageParentHeight":"1254px",
+		"dummyStageParentHeight":"1254px",
+		"defaultStageParentWidth":"1000px",
+		"element_${waldhuette2}":{
+			"timelineColor2":"0x1095d2",
+			"timelineColor3":"0x29647e",
+			"animationEnabled":"false",
+			"timelineColor":"0x00a9fa"},
+		"dummyStageParentWidth":"1000px"},
+	"expanded:images/untitled%20folder/images/01.gif":"nil",
+	"expanded:images/sterne_zwilling_small.gif":"nil",
+	"symbol_Haus_Steinbock":{
+		"element_${steinbock}":{
+			"timelineColor2":"0xd8b467",
+			"timelineColor3":"0x81714f",
+			"animationEnabled":"false",
+			"timelineColor":"0xffd46d"},
+		"dummyStageParentWidth":"854px",
+		"element_${haus-steinbock}":{
+			"timelineColor2":"0xba5b89",
+			"timelineColor3":"0x734a5f",
+			"timelineColor":"0xdb619d",
+			"animationEnabled":"false",
+			"invisible":"true"},
+		"dummyStageParentHeight":"1139px",
+		"defaultStageParentWidth":"854px",
+		"defaultStageParentHeight":"1139px",
+		"element_${haus_steinbock}":{
+			"timelineColor2":"0x1aa38f",
+			"timelineColor3":"0x2a6a61",
+			"timelineColor":"0x00bda4"}},
+	"expanded:images/sterne_steinbock%20_small.gif":"nil",
+	"pixelsPerMs":"0.037304174366989",
+	"Haus_Zwilling-Default Timeline_playhead_ms":"0",
+	"Haus_Plateau-Default Timeline_playhead_ms":"0",
+	"expanded:images/poolhouse_withoutstar-new.gif":"nil",
+	"expanded:media/steinbock.mp4":"false",
+	"haus_pudding_spritesheet2_symbol_1-Default Timeline_playhead_ms":"0",
 	"expanded:images/sterne_waage_small.png":"nil",
+	"stage-Default Timeline_playhead_ms":"0",
+	"cosmos-Default Timeline_playhead_ms":"0",
+	"expanded:images/perinthia_text.png":"nil",
+	"cosmos-Default Timeline_mark_ms":"-1",
+	"expanded:images/hochhaus_destruction_final2_ending.gif":"nil",
+	"expanded:images/hauspudding_spritesheet.png":"nil",
+	"expanded:images/waldhuette.gif":"nil",
+	"symbol_cosmos":{
+		"element_${hochhaus_destruction_ending}":{
+			"timelineColor2":"0xba5b89",
+			"timelineColor3":"0x734a5f",
+			"animationEnabled":"false",
+			"timelineColor":"0xdb619d"},
+		"element_${sterne_waage}":{
+			"timelineColor2":"0xba5b89",
+			"timelineColor3":"0x734a5f",
+			"timelineColor":"0xdb619d"},
+		"element_${sterne_krebs}":{
+			"timelineColor2":"0x107faa",
+			"timelineColor3":"0x295a6d",
+			"timelineColor":"0x008dc8"},
+		"element_${zwillinge_schaukeln}":{
+			"timelineColor2":"0xb099ce",
+			"timelineColor3":"0x70657c",
+			"animationEnabled":"false",
+			"timelineColor":"0xceaef4"},
+		"element_${sterne_pool}":{
+			"timelineColor2":"0x5a558a",
+			"timelineColor3":"0x4a485e",
+			"timelineColor":"0x63599f"},
+		"element_${sterne_pudding}":{
+			"timelineColor2":"0x1aa38f",
+			"timelineColor3":"0x2a6a61",
+			"timelineColor":"0x00bda4"},
+		"element_${Rectangle2}":{
+			"timelineColor2":"0xd8b467",
+			"timelineColor3":"0x81714f",
+			"animationEnabled":"false",
+			"timelineColor":"0xffd46d"},
+		"element_${sterne_krebsCopy}":{
+			"timelineColor2":"0xcbbd71",
+			"timelineColor3":"0x7b7652",
+			"timelineColor":"0xeedf79"},
+		"element_${hauszwilling_ohneschaukelCopy}":{
+			"timelineColor2":"0xd35d6e",
+			"timelineColor3":"0x7e4b52",
+			"animationEnabled":"false",
+			"timelineColor":"0xfb657a"},
+		"element_${hochhaus_destruction_small}":{
+			"timelineColor2":"0x81aa62",
+			"timelineColor3":"0x5b6c4d",
+			"timelineTreeOpened":"true",
+			"timelineColor":"0x91c767"},
+		"element_${sterne_krebs_kleinCopy}":{
+			"timelineColor2":"0xba5b89",
+			"timelineColor3":"0x734a5f",
+			"timelineColor":"0xdb619d"},
+		"element_${cosmos_neu}":{
+			"timelineColor2":"0x81aa62",
+			"timelineColor3":"0x5b6c4d",
+			"timelineColor":"0x91c767",
+			"timelineTreeOpened":"true",
+			"animationEnabled":"true",
+			"invisible":"false"},
+		"defaultStageParentHeight":"2048px",
+		"element_${ButtonStart}":{
+			"timelineColor2":"0x1aa38f",
+			"timelineColor3":"0x2a6a61",
+			"timelineColor":"0x00bda4",
+			"timelineTreeOpened":"true",
+			"animationEnabled":"true",
+			"invisible":"true"},
+		"element_${plateau_fin_sterne22}":{
+			"timelineColor2":"0x326a96",
+			"timelineColor3":"0x385063",
+			"animationEnabled":"false",
+			"timelineColor":"0x2f73ad"},
+		"element_${hochhaus_glas_starsonly}":{
+			"timelineColor2":"0x1095d2",
+			"timelineColor3":"0x29647e",
+			"animationEnabled":"false",
+			"timelineColor":"0x00a9fa"},
+		"element_${perinthia-headline}":{
+			"timelineColor2":"0x81aa62",
+			"timelineColor3":"0x5b6c4d",
+			"animationEnabled":"true",
+			"timelineColor":"0x91c767"},
+		"element_${plateau_fin_sterne22Copy}":{
+			"timelineColor2":"0x5a558a",
+			"timelineColor3":"0x4a485e",
+			"timelineColor":"0x63599f"},
+		"element_${Haus_Hochhaus}":{
+			"timelineColor2":"0xb099ce",
+			"timelineColor3":"0x70657c",
+			"animationEnabled":"false",
+			"timelineColor":"0xceaef4"},
+		"element_${haus_krebs_klein}":{
+			"timelineColor2":"0x1aa38f",
+			"timelineColor3":"0x2a6a61",
+			"timelineColor":"0x00bda4"},
+		"element_${sterne_waage_small}":{
+			"timelineColor2":"0xcbbd71",
+			"timelineColor3":"0x7b7652",
+			"animationEnabled":"false",
+			"timelineColor":"0xeedf79"},
+		"element_${canvas}":{
+			"timelineColor2":"0x107faa",
+			"timelineColor3":"0x295a6d",
+			"timelineColor":"0x008dc8",
+			"animationEnabled":"true",
+			"invisible":"false",
+			"epOpened":"true"},
+		"element_${Haus_Pool}":{
+			"timelineColor2":"0x81aa62",
+			"timelineColor3":"0x5b6c4d",
+			"animationEnabled":"true",
+			"timelineColor":"0x91c767"},
+		"element_${hochhaus_glas_starsonlyCopy}":{
+			"timelineColor2":"0xb099ce",
+			"timelineColor3":"0x70657c",
+			"timelineColor":"0xceaef4"},
+		"element_${Haus_Steinbock2}":{
+			"timelineColor2":"0x5a558a",
+			"timelineColor3":"0x4a485e",
+			"animationEnabled":"true",
+			"timelineColor":"0x63599f"},
+		"element_${Sterne2}":{
+			"timelineColor2":"0x81aa62",
+			"timelineColor3":"0x5b6c4d",
+			"animationEnabled":"false",
+			"timelineColor":"0x91c767"},
+		"element_${sterne_steinbock}":{
+			"timelineColor2":"0xd35d6e",
+			"timelineColor3":"0x7e4b52",
+			"timelineColor":"0xfb657a"},
+		"defaultStageParentWidth":"1536px",
+		"element_${steinbock}":{
+			"timelineColor2":"0x1095d2",
+			"timelineColor3":"0x29647e",
+			"animationEnabled":"false",
+			"timelineColor":"0x00a9fa"},
+		"element_${Haus_Zwilling}":{
+			"timelineColor2":"0x5a558a",
+			"timelineColor3":"0x4a485e",
+			"animationEnabled":"true",
+			"timelineColor":"0x63599f"},
+		"element_${linie_widder}":{
+			"timelineColor2":"0x5a558a",
+			"timelineColor3":"0x4a485e",
+			"timelineColor":"0x63599f",
+			"timelineTreeOpened":"false",
+			"animationEnabled":"false"},
+		"element_${perinthia_headline}":{
+			"timelineColor2":"0xba5b89",
+			"timelineColor3":"0x734a5f",
+			"animationEnabled":"true",
+			"timelineColor":"0xdb619d"},
+		"element_${sterne_hochhaus}":{
+			"timelineColor2":"0x326a96",
+			"timelineColor3":"0x385063",
+			"timelineColor":"0x2f73ad"},
+		"element_${sterne_krebs_klein}":{
+			"timelineColor2":"0x5a558a",
+			"timelineColor3":"0x4a485e",
+			"animationEnabled":"false",
+			"timelineColor":"0x63599f"},
+		"element_${haus_krebs_klein2}":{
+			"timelineColor2":"0x326a96",
+			"timelineColor3":"0x385063",
+			"animationEnabled":"false",
+			"timelineColor":"0x2f73ad"},
+		"element_${plateau_fin_ohnesterne}":{
+			"timelineColor2":"0x168c84",
+			"timelineColor3":"0x2a605c",
+			"animationEnabled":"false",
+			"timelineColor":"0x00a096"},
+		"element_${Haus_Steinbock}":{
+			"timelineColor2":"0x1aa38f",
+			"timelineColor3":"0x2a6a61",
+			"animationEnabled":"false",
+			"timelineColor":"0x00bda4"},
+		"element_${haus-zwilling}":{
+			"timelineColor2":"0xcbbd71",
+			"timelineColor3":"0x7b7652",
+			"timelineColor":"0xeedf79",
+			"animationEnabled":"false",
+			"invisible":"true"},
+		"element_${cosmos_neuCopy}":{
+			"timelineColor2":"0x326a96",
+			"animationEnabled":"false",
+			"timelineColor3":"0x385063",
+			"timelineColor":"0x2f73ad"},
+		"element_${sterne_waage_smallCopy}":{
+			"timelineColor2":"0x4fa275",
+			"timelineColor3":"0x456a55",
+			"timelineColor":"0x50bd82"},
+		"element_${sterne_steinbock_klein}":{
+			"timelineColor2":"0xd8b467",
+			"timelineColor3":"0x81714f",
+			"animationEnabled":"false",
+			"timelineColor":"0xffd46d"},
+		"element_${Haus_Pudding}":{
+			"timelineColor2":"0x107faa",
+			"timelineColor3":"0x295a6d",
+			"timelineColor":"0x008dc8",
+			"animationEnabled":"true",
+			"invisible":"false"},
+		"element_${poolhouse_starCopy}":{
+			"timelineColor2":"0xd8b467",
+			"timelineColor3":"0x81714f",
+			"timelineColor":"0xffd46d"},
+		"element_${poolhouse_star}":{
+			"timelineColor2":"0xb099ce",
+			"timelineColor3":"0x70657c",
+			"animationEnabled":"false",
+			"timelineColor":"0xceaef4"},
+		"element_${haus-steinbock}":{
+			"timelineColor2":"0x168c84",
+			"timelineColor3":"0x2a605c",
+			"animationEnabled":"false",
+			"timelineColor":"0x00a096"},
+		"element_${leo}":{
+			"timelineColor2":"0x168c84",
+			"timelineColor3":"0x2a605c",
+			"animationEnabled":"false",
+			"timelineColor":"0x00a096"},
+		"element_${sterne_steinbock_kleinCopy}":{
+			"timelineColor2":"0x81aa62",
+			"timelineColor3":"0x5b6c4d",
+			"timelineColor":"0x91c767"},
+		"element_${Text2}":{
+			"timelineColor2":"0xd35d6e",
+			"timelineColor3":"0x7e4b52",
+			"animationEnabled":"false",
+			"timelineColor":"0xfb657a"},
+		"element_${Haus_Plateau}":{
+			"timelineColor2":"0x1aa38f",
+			"timelineColor3":"0x2a6a61",
+			"animationEnabled":"true",
+			"timelineColor":"0x00bda4"},
+		"element_${waldhuette2}":{
+			"timelineColor2":"0x4fa275",
+			"timelineColor3":"0x456a55",
+			"animationEnabled":"false",
+			"timelineColor":"0x50bd82"},
+		"element_${perinthia_text}":{
+			"timelineColor2":"0xcbbd71",
+			"timelineColor3":"0x7b7652",
+			"timelineColor":"0xeedf79",
+			"timelineTreeOpened":"true",
+			"animationEnabled":"true"},
+		"element_${hochhaus_destruction_small2}":{
+			"timelineColor2":"0xd8b467",
+			"timelineColor3":"0x81714f",
+			"animationEnabled":"false",
+			"timelineColor":"0xffd46d"},
+		"element_${sterne_plateau}":{
+			"timelineColor2":"0x168c84",
+			"timelineColor3":"0x2a605c",
+			"timelineColor":"0x00a096"},
+		"element_${Group2}":{
+			"timelineColor2":"0x4fa275",
+			"timelineColor3":"0x456a55",
+			"animationEnabled":"false",
+			"timelineColor":"0x50bd82"},
+		"element_${sterne_krebs_klein2}":{
+			"timelineColor2":"0x4fa275",
+			"timelineColor3":"0x456a55",
+			"animationEnabled":"false",
+			"timelineColor":"0x50bd82"},
+		"element_${leoCopy}":{
+			"timelineColor2":"0x107faa",
+			"timelineColor3":"0x295a6d",
+			"timelineColor":"0x008dc8"},
+		"element_${haus-waage}":{
+			"timelineColor2":"0x1095d2",
+			"timelineColor3":"0x29647e",
+			"animationEnabled":"false",
+			"timelineColor":"0x00a9fa"},
+		"element_${hochhaus_glas_nostars}":{
+			"timelineColor2":"0xd35d6e",
+			"timelineColor3":"0x7e4b52",
+			"animationEnabled":"false",
+			"timelineColor":"0xfb657a"},
+		"element_${sterne_zwilling_kleinCopy}":{
+			"timelineColor2":"0xcbbd71",
+			"timelineColor3":"0x7b7652",
+			"timelineColor":"0xeedf79"},
+		"element_${poolhouse_withoutstar2}":{
+			"timelineColor2":"0x4fa275",
+			"timelineColor3":"0x456a55",
+			"animationEnabled":"false",
+			"timelineColor":"0x50bd82"},
+		"element_${vogelflug_small}":{
+			"timelineColor2":"0x107faa",
+			"animationEnabled":"false",
+			"timelineColor3":"0x295a6d",
+			"timelineColor":"0x008dc8"},
+		"element_${sternenGruppe}":{
+			"timelineColor2":"0x1095d2",
+			"timelineColor3":"0x29647e",
+			"timelineColor":"0x00a9fa",
+			"timelineTreeOpened":"false",
+			"animationEnabled":"false",
+			"invisible":"false",
+			"epOpened":"false"},
+		"element_${linie_widder2}":{
+			"timelineColor2":"0xb099ce",
+			"timelineColor3":"0x70657c",
+			"animationEnabled":"false",
+			"timelineColor":"0xceaef4"},
+		"element_${Sterne}":{
+			"timelineColor2":"0xd35d6e",
+			"timelineColor3":"0x7e4b52",
+			"animationEnabled":"false",
+			"timelineColor":"0xfb657a"},
+		"dummyStageParentHeight":"2048px",
+		"element_${Haus_Hochaus2}":{
+			"timelineColor2":"0xd8b467",
+			"timelineColor3":"0x81714f",
+			"animationEnabled":"true",
+			"timelineColor":"0xffd46d"},
+		"element_${Rectangle}":{
+			"timelineColor2":"0xd35d6e",
+			"timelineColor3":"0x7e4b52",
+			"timelineColor":"0xfb657a",
+			"animationEnabled":"false",
+			"invisible":"false"},
+		"element_${sterne_widderCopy}":{
+			"timelineColor2":"0xd35d6e",
+			"timelineColor3":"0x7e4b52",
+			"timelineColor":"0xfb657a"},
+		"element_${poolhouse_withoutstar}":{
+			"timelineColor2":"0xba5b89",
+			"timelineColor3":"0x734a5f",
+			"animationEnabled":"false",
+			"timelineColor":"0xdb619d"},
+		"element_${haus_steinbock_klein}":{
+			"timelineColor2":"0xd8b467",
+			"timelineColor3":"0x81714f",
+			"animationEnabled":"false",
+			"timelineColor":"0xffd46d"},
+		"dummyStageParentWidth":"1536px",
+		"element_${plateau_fin_sterne2}":{
+			"timelineColor2":"0x5a558a",
+			"timelineColor3":"0x4a485e",
+			"timelineColor":"0x63599f"},
+		"element_${Haus_Krebs}":{
+			"timelineColor2":"0x168c84",
+			"timelineColor3":"0x2a605c",
+			"timelineColor":"0x00a096",
+			"animationEnabled":"true",
+			"invisible":"false"},
+		"element_${haus-pudding}":{
+			"timelineColor2":"0x5a558a",
+			"timelineColor3":"0x4a485e",
+			"animationEnabled":"false",
+			"timelineColor":"0x63599f"},
+		"element_${Haus_Widder}":{
+			"timelineColor2":"0x81aa62",
+			"timelineColor3":"0x5b6c4d",
+			"timelineColor":"0x91c767",
+			"animationEnabled":"true",
+			"invisible":"false",
+			"scrubbingEnabled":"true"},
+		"element_${Text}":{
+			"timelineColor2":"0xb099ce",
+			"timelineColor3":"0x70657c",
+			"timelineColor":"0xceaef4"},
+		"element_${sterne_zwilling_klein}":{
+			"timelineColor2":"0xba5b89",
+			"timelineColor3":"0x734a5f",
+			"animationEnabled":"false",
+			"timelineColor":"0xdb619d"},
+		"element_${haus_zwilling_klein}":{
+			"timelineColor2":"0x81aa62",
+			"timelineColor3":"0x5b6c4d",
+			"animationEnabled":"false",
+			"timelineColor":"0x91c767"},
+		"element_${sterne_zwilling}":{
+			"timelineColor2":"0xb099ce",
+			"timelineColor3":"0x70657c",
+			"timelineColor":"0xceaef4"},
+		"element_${sterne_widder}":{
+			"timelineColor2":"0x1095d2",
+			"timelineColor3":"0x29647e",
+			"timelineColor":"0x00a9fa"},
+		"element_${Haus_Waage}":{
+			"timelineColor2":"0x326a96",
+			"timelineColor3":"0x385063",
+			"timelineColor":"0x2f73ad",
+			"animationEnabled":"true",
+			"invisible":"false"},
+		"element_${hauszwilling_ohneschaukel}":{
+			"timelineColor2":"0x168c84",
+			"timelineColor3":"0x2a605c",
+			"animationEnabled":"false",
+			"timelineColor":"0x00a096"}},
+	"expanded:images/hauszwilling_doppelt.png":"nil",
+	"expanded:images/haus_krebs_klein-new.jpg":"nil",
+	"expanded:images/haus_zwilling_klein.png":"nil",
+	"symbol_Haus_Steinbock2":{
+		"element_${steinbock}":{
+			"timelineColor2":"0xb099ce",
+			"timelineColor3":"0x70657c",
+			"animationEnabled":"false",
+			"timelineColor":"0xceaef4"},
+		"defaultStageParentHeight":"1139px",
+		"dummyStageParentWidth":"854px",
+		"dummyStageParentHeight":"1139px",
+		"defaultStageParentWidth":"854px",
+		"element_${pudding1}":{
+			"timelineColor2":"0x1095d2",
+			"timelineColor3":"0x29647e",
+			"timelineColor":"0x00a9fa",
+			"VideoPosterImageTakenBy":"PosterImageNameImplementer"},
+		"element_${haus_pudding}":{
+			"timelineColor2":"0x107faa",
+			"timelineColor3":"0x295a6d",
+			"timelineColor":"0x008dc8"},
+		"element_${pudding2}":{
+			"timelineColor2":"0x326a96",
+			"timelineColor3":"0x385063",
+			"animationEnabled":"false",
+			"timelineColor":"0x2f73ad"}},
+	"expanded:images/untitled%20folder/images/13.gif":"nil",
+	"expanded:images/untitled%20folder/images/04.gif":"nil",
+	"PreloadAudio":"auto",
 	"pref__general__AudioMutedInTool":"true",
-	"expanded:images/untitled%20folder/images/12.gif":"nil",
-	"expanded:images/haus_waage_newone_small-new.jpg":"nil",
-	"expanded:images/sterne_steinbock_klein.png":"nil",
-	"expanded:images/haus_krebs_klein.jpg":"nil",
-	"expanded:images/perinthia_headline.png":"nil",
-	"mediagroup_media/steinbock.mp4":"steinbock",
-	"expanded:images/untitled%20folder/images/15.gif":"nil",
+	"Haus_Krebs-Default Timeline_playhead_ms":"0",
+	"expanded:images/perinthia_text_vonhand.png":"nil",
 	"symbol_stage":{
 		"element_${cosmos_neu}":{
 			"timelineColor2":"0x1aa38f",
@@ -812,4 +903,11 @@
 		"defaultStageParentWidth":"1536px",
 		"dummyStageParentWidth":"1536px",
 		"defaultStageParentHeight":"2048px",
-		"dummyStageParentHeight":"2048px"}}
+		"dummyStageParentHeight":"2048px"},
+	"expanded:images/haus_steinbock_klein.png":"nil",
+	"expanded:images/untitled%20folder/images/02.gif":"nil",
+	"expanded:images/haus_krebs_klein.jpg":"nil",
+	"expanded:images/cosmos-new.jpg":"nil",
+	"mediagroup_media/steinbock.mp4":"steinbock",
+	"expanded:images/untitled%20folder/images/15.gif":"nil",
+	"expanded:images/sterne_widder.png":"nil"}

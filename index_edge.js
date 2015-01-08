@@ -63,72 +63,72 @@
                 content: {
                     dom: [
                         {
-                            id: 'canvas',
                             type: 'group',
+                            id: 'canvas',
                             rect: ['-1528px', '597px', '1040', '1213', 'auto', 'auto'],
                             c: [
                             {
-                                type: 'rect',
-                                display: 'none',
-                                symbolName: 'Haus_Pool',
                                 rect: ['1021', '-26', '1035', '1024', 'auto', 'auto'],
-                                id: 'Haus_Pool'
+                                id: 'Haus_Pool',
+                                symbolName: 'Haus_Pool',
+                                type: 'rect',
+                                display: 'none'
                             },
                             {
-                                type: 'rect',
-                                display: 'none',
-                                symbolName: 'Haus_Plateau',
                                 rect: ['1709', '141', '869', '1159', 'auto', 'auto'],
-                                id: 'Haus_Plateau'
+                                id: 'Haus_Plateau',
+                                symbolName: 'Haus_Plateau',
+                                type: 'rect',
+                                display: 'none'
                             },
                             {
+                                rect: ['1139px', '936px', null, null, 'auto', 'auto'],
+                                id: 'Haus_Hochaus2',
+                                symbolName: 'Haus_Hochaus2',
                                 type: 'rect',
-                                display: 'none',
-                                symbolName: 'Haus_Hochhaus',
-                                rect: ['1244', '1135', '665', '820', 'auto', 'auto'],
-                                id: 'Haus_Hochhaus'
+                                display: 'none'
                             },
                             {
-                                type: 'rect',
-                                display: 'none',
-                                symbolName: 'Haus_Pudding',
                                 rect: ['808', '267', '854', '1139', 'auto', 'auto'],
-                                id: 'Haus_Pudding'
+                                id: 'Haus_Pudding',
+                                symbolName: 'Haus_Pudding',
+                                type: 'rect',
+                                display: 'none'
                             },
                             {
-                                type: 'rect',
-                                display: 'none',
-                                symbolName: 'Haus_Widder',
                                 rect: ['-208', '649', '1000', '1254', 'auto', 'auto'],
-                                id: 'Haus_Widder'
+                                id: 'Haus_Widder',
+                                symbolName: 'Haus_Widder',
+                                type: 'rect',
+                                display: 'none'
                             },
                             {
-                                type: 'rect',
-                                display: 'none',
-                                symbolName: 'Haus_Waage',
                                 rect: ['-271', '-845', '854', '1139', 'auto', 'auto'],
-                                id: 'Haus_Waage'
+                                id: 'Haus_Waage',
+                                symbolName: 'Haus_Waage',
+                                type: 'rect',
+                                display: 'none'
                             },
                             {
-                                type: 'rect',
-                                display: 'none',
-                                symbolName: 'Haus_Krebs',
                                 rect: ['471', '549', '854', '1139', 'auto', 'auto'],
-                                id: 'Haus_Krebs'
+                                id: 'Haus_Krebs',
+                                symbolName: 'Haus_Krebs',
+                                type: 'rect',
+                                display: 'none'
                             },
                             {
+                                rect: ['-333px', '312px', null, null, 'auto', 'auto'],
+                                id: 'Haus_Steinbock2',
+                                symbolName: 'Haus_Steinbock2',
                                 type: 'rect',
-                                display: 'none',
-                                symbolName: 'Haus_Steinbock',
-                                rect: ['-333', '312', '854', '1139', 'auto', 'auto'],
-                                id: 'Haus_Steinbock'
+                                display: 'none'
                             },
                             {
-                                type: 'rect',
-                                display: 'none',
-                                symbolName: 'Haus_Zwilling',
                                 rect: ['372', '-71', '706', '1001', 'auto', 'auto'],
-                                id: 'Haus_Zwilling'
+                                id: 'Haus_Zwilling',
+                                symbolName: 'Haus_Zwilling',
+                                type: 'rect',
+                                display: 'none'
                             },
                             {
                                 rect: ['-518', '-1165', '3545', '3536', 'auto', 'auto'],
@@ -155,86 +155,85 @@
                             fill: ['rgba(0,0,0,0)', 'images/perinthia_text_vonhand_small.png', '0px', '0px']
                         },
                         {
-                            id: 'sternenGruppe',
                             type: 'group',
+                            id: 'sternenGruppe',
                             rect: ['242', '130', '2430', '2209', 'auto', 'auto'],
                             c: [
                             {
-                                rect: ['-30px', '-25px', '372', '312', 'auto', 'auto'],
-                                id: 'sterne_waage',
-                                transform: [[], [], [], ['0.84', '0.84']],
                                 type: 'image',
+                                id: 'sterne_waage',
+                                rect: ['-30px', '-25px', '372', '312', 'auto', 'auto'],
+                                transform: [[], [], [], ['0.84', '0.84']],
                                 fill: ['rgba(0,0,0,0)', 'images/haus_waage_newone_sterne.gif', '0px', '0px']
                             },
                             {
-                                rect: ['-23px', '986px', '246px', '403px', 'auto', 'auto'],
-                                id: 'sterne_steinbock',
-                                transform: [[], [], [], ['0.63', '0.63']],
                                 type: 'image',
+                                id: 'sterne_steinbock',
+                                rect: ['-23px', '986px', '246px', '403px', 'auto', 'auto'],
+                                transform: [[], [], [], ['0.63', '0.63']],
                                 fill: ['rgba(0,0,0,0)', 'images/sterne_steinbock%20_small.gif', '0px', '0px']
                             },
                             {
-                                rect: ['566px', '280px', '390px', '393px', 'auto', 'auto'],
-                                id: 'sterne_zwilling',
-                                transform: [[], [], [], ['0.7', '0.7']],
                                 type: 'image',
+                                id: 'sterne_zwilling',
+                                rect: ['566px', '280px', '390px', '393px', 'auto', 'auto'],
+                                transform: [[], [], [], ['0.7', '0.7']],
                                 fill: ['rgba(0,0,0,0)', 'images/sterne_zwilling_small.gif', '0px', '0px']
                             },
                             {
-                                id: 'sterne_pool',
                                 type: 'image',
+                                id: 'sterne_pool',
                                 rect: ['1673px', '783px', '235px', '303px', 'auto', 'auto'],
                                 fill: ['rgba(0,0,0,0)', 'images/poolhouse_star.gif', '0px', '0px']
                             },
                             {
-                                rect: ['789px', '1269px', '329px', '266px', 'auto', 'auto'],
-                                id: 'sterne_krebs',
-                                transform: [[], [], [], ['0.7', '0.7']],
                                 type: 'image',
+                                id: 'sterne_krebs',
+                                rect: ['789px', '1269px', '329px', '266px', 'auto', 'auto'],
+                                transform: [[], [], [], ['0.7', '0.7']],
                                 fill: ['rgba(0,0,0,0)', 'images/sterne_krebs_small.gif', '0px', '0px']
                             },
                             {
-                                id: 'sterne_widder',
                                 type: 'image',
+                                id: 'sterne_widder',
                                 rect: ['253px', '1526px', '503', '300', 'auto', 'auto'],
                                 fill: ['rgba(0,0,0,0)', 'images/sterne_widder.png', '0px', '0px']
                             },
                             {
-                                rect: ['1051px', '1435px', '807px', '1303px', 'auto', 'auto'],
-                                id: 'sterne_hochhaus',
-                                transform: [[], [], [], ['0.46', '0.46']],
                                 type: 'image',
+                                id: 'sterne_hochhaus',
+                                rect: ['1051px', '1435px', '807px', '1303px', 'auto', 'auto'],
+                                transform: [[], [], [], ['0.46', '0.46']],
                                 fill: ['rgba(0,0,0,0)', 'images/hochhaus_glas_starsonly.gif', '0px', '0px']
                             },
                             {
-                                rect: ['2244px', '1242px', '225px', '166px', 'auto', 'auto'],
-                                id: 'sterne_plateau',
-                                transform: [[], [], [], ['0.65', '0.65']],
                                 type: 'image',
+                                id: 'sterne_plateau',
+                                rect: ['2244px', '1242px', '225px', '166px', 'auto', 'auto'],
+                                transform: [[], [], [], ['0.65', '0.65']],
                                 fill: ['rgba(0,0,0,0)', 'images/plateau_fin_sterne2.gif', '0px', '0px']
                             },
                             {
-                                rect: ['1015px', '578px', '333px', '300px', 'auto', 'auto'],
-                                id: 'sterne_pudding',
-                                transform: [[], [], [], ['0.62', '0.62']],
                                 type: 'image',
+                                id: 'sterne_pudding',
+                                rect: ['1015px', '578px', '333px', '300px', 'auto', 'auto'],
+                                transform: [[], [], [], ['0.62', '0.62']],
                                 fill: ['rgba(0,0,0,0)', 'images/sterne_leo_small.gif', '0px', '0px']
                             }]
                         },
                         {
                             rect: ['0', '0%', '100%', '100%', 'auto', 'auto'],
-                            stroke: [1, 'rgba(0,0,0,0.00)', 'none'],
                             type: 'rect',
-                            id: 'ButtonStart',
                             opacity: '0.1953125',
+                            id: 'ButtonStart',
+                            stroke: [1, 'rgba(0,0,0,0.00)', 'none'],
                             display: 'block',
                             fill: ['rgba(213,125,125,0.00)']
                         }
                     ],
                     style: {
                         '${symbolSelector}': {
-                            isStage: 'true',
-                            rect: [undefined, undefined, '1536', '2048']
+                            rect: [null, null, '1536', '2048']
                         }
                     }
                 },
@@ -256,6 +255,36 @@
                         "poolhouse": 28000
                     },
                     data: [
+                        [
+                            "eid398",
+                            "display",
+                            0,
+                            0,
+                            "linear",
+                            "${Haus_Hochaus2}",
+                            'none',
+                            'none'
+                        ],
+                        [
+                            "eid399",
+                            "display",
+                            22000,
+                            0,
+                            "linear",
+                            "${Haus_Hochaus2}",
+                            'none',
+                            'block'
+                        ],
+                        [
+                            "eid400",
+                            "display",
+                            24500,
+                            0,
+                            "linear",
+                            "${Haus_Hochaus2}",
+                            'block',
+                            'none'
+                        ],
                         [
                             "eid48",
                             "opacity",
@@ -407,34 +436,94 @@
                             'none'
                         ],
                         [
-                            "eid97",
-                            "display",
-                            0,
-                            0,
+                            "eid11",
+                            "scaleY",
+                            4000,
+                            2000,
                             "linear",
-                            "${ButtonStart}",
-                            'block',
-                            'block'
+                            "${canvas}",
+                            '1',
+                            '1.8'
                         ],
                         [
-                            "eid166",
-                            "display",
-                            1000,
-                            0,
+                            "eid35",
+                            "scaleY",
+                            7000,
+                            2000,
                             "linear",
-                            "${ButtonStart}",
-                            'block',
-                            'block'
+                            "${canvas}",
+                            '1',
+                            '1.8'
                         ],
                         [
-                            "eid98",
-                            "display",
-                            3000,
-                            0,
+                            "eid60",
+                            "scaleY",
+                            10000,
+                            2000,
                             "linear",
-                            "${ButtonStart}",
-                            'block',
-                            'none'
+                            "${canvas}",
+                            '1',
+                            '1.8'
+                        ],
+                        [
+                            "eid75",
+                            "scaleY",
+                            13000,
+                            2000,
+                            "linear",
+                            "${canvas}",
+                            '1',
+                            '1.8'
+                        ],
+                        [
+                            "eid118",
+                            "scaleY",
+                            16000,
+                            2000,
+                            "linear",
+                            "${canvas}",
+                            '1',
+                            '1.8'
+                        ],
+                        [
+                            "eid148",
+                            "scaleY",
+                            19000,
+                            2000,
+                            "linear",
+                            "${canvas}",
+                            '1',
+                            '1.8'
+                        ],
+                        [
+                            "eid177",
+                            "scaleY",
+                            22000,
+                            2000,
+                            "linear",
+                            "${canvas}",
+                            '1',
+                            '1.8'
+                        ],
+                        [
+                            "eid236",
+                            "scaleY",
+                            25000,
+                            2000,
+                            "linear",
+                            "${canvas}",
+                            '1',
+                            '1.8'
+                        ],
+                        [
+                            "eid257",
+                            "scaleY",
+                            28000,
+                            2000,
+                            "linear",
+                            "${canvas}",
+                            '1',
+                            '1.8'
                         ],
                         [
                             "eid299",
@@ -577,32 +666,32 @@
                             '1.8'
                         ],
                         [
-                            "eid324",
+                            "eid329",
                             "display",
                             0,
                             0,
                             "linear",
-                            "${Haus_Hochhaus}",
+                            "${Haus_Pool}",
                             'none',
                             'none'
                         ],
                         [
-                            "eid314",
+                            "eid332",
                             "display",
-                            22000,
+                            28000,
                             0,
                             "linear",
-                            "${Haus_Hochhaus}",
+                            "${Haus_Pool}",
                             'none',
                             'block'
                         ],
                         [
-                            "eid313",
+                            "eid333",
                             "display",
-                            24500,
+                            30500,
                             0,
                             "linear",
-                            "${Haus_Hochhaus}",
+                            "${Haus_Pool}",
                             'block',
                             'none'
                         ],
@@ -704,7 +793,7 @@
                             "linear",
                             "${canvas}",
                             '271px',
-                            '282px'
+                            '-1040px'
                         ],
                         [
                             "eid379",
@@ -713,7 +802,7 @@
                             1000,
                             "linear",
                             "${canvas}",
-                            '282px',
+                            '-1040px',
                             '271px'
                         ],
                         [
@@ -797,36 +886,6 @@
                             'none'
                         ],
                         [
-                            "eid92",
-                            "display",
-                            0,
-                            0,
-                            "linear",
-                            "${perinthia_text}",
-                            'none',
-                            'none'
-                        ],
-                        [
-                            "eid93",
-                            "display",
-                            1000,
-                            0,
-                            "linear",
-                            "${perinthia_text}",
-                            'none',
-                            'block'
-                        ],
-                        [
-                            "eid99",
-                            "display",
-                            3000,
-                            0,
-                            "linear",
-                            "${perinthia_text}",
-                            'block',
-                            'none'
-                        ],
-                        [
                             "eid17",
                             "top",
                             4000,
@@ -884,7 +943,7 @@
                             "linear",
                             "${canvas}",
                             '402px',
-                            '405px'
+                            '5px'
                         ],
                         [
                             "eid337",
@@ -893,7 +952,7 @@
                             2000,
                             "linear",
                             "${canvas}",
-                            '405px',
+                            '5px',
                             '-1203px'
                         ],
                         [
@@ -927,32 +986,32 @@
                             '597px'
                         ],
                         [
-                            "eid325",
+                            "eid92",
                             "display",
                             0,
                             0,
                             "linear",
-                            "${Haus_Steinbock}",
+                            "${perinthia_text}",
                             'none',
                             'none'
                         ],
                         [
-                            "eid303",
+                            "eid93",
                             "display",
-                            7000,
+                            1000,
                             0,
                             "linear",
-                            "${Haus_Steinbock}",
+                            "${perinthia_text}",
                             'none',
                             'block'
                         ],
                         [
-                            "eid302",
+                            "eid99",
                             "display",
-                            9500,
+                            3000,
                             0,
                             "linear",
-                            "${Haus_Steinbock}",
+                            "${perinthia_text}",
                             'block',
                             'none'
                         ],
@@ -987,32 +1046,32 @@
                             'none'
                         ],
                         [
-                            "eid329",
+                            "eid396",
                             "display",
                             0,
                             0,
                             "linear",
-                            "${Haus_Pool}",
+                            "${Haus_Steinbock2}",
                             'none',
                             'none'
                         ],
                         [
-                            "eid332",
+                            "eid394",
                             "display",
-                            28000,
+                            7000,
                             0,
                             "linear",
-                            "${Haus_Pool}",
+                            "${Haus_Steinbock2}",
                             'none',
                             'block'
                         ],
                         [
-                            "eid333",
+                            "eid397",
                             "display",
-                            30500,
+                            9715,
                             0,
                             "linear",
-                            "${Haus_Pool}",
+                            "${Haus_Steinbock2}",
                             'block',
                             'none'
                         ],
@@ -1037,94 +1096,34 @@
                             'none'
                         ],
                         [
-                            "eid11",
-                            "scaleY",
-                            4000,
-                            2000,
+                            "eid97",
+                            "display",
+                            0,
+                            0,
                             "linear",
-                            "${canvas}",
-                            '1',
-                            '1.8'
+                            "${ButtonStart}",
+                            'block',
+                            'block'
                         ],
                         [
-                            "eid35",
-                            "scaleY",
-                            7000,
-                            2000,
+                            "eid166",
+                            "display",
+                            1000,
+                            0,
                             "linear",
-                            "${canvas}",
-                            '1',
-                            '1.8'
+                            "${ButtonStart}",
+                            'block',
+                            'block'
                         ],
                         [
-                            "eid60",
-                            "scaleY",
-                            10000,
-                            2000,
+                            "eid98",
+                            "display",
+                            3000,
+                            0,
                             "linear",
-                            "${canvas}",
-                            '1',
-                            '1.8'
-                        ],
-                        [
-                            "eid75",
-                            "scaleY",
-                            13000,
-                            2000,
-                            "linear",
-                            "${canvas}",
-                            '1',
-                            '1.8'
-                        ],
-                        [
-                            "eid118",
-                            "scaleY",
-                            16000,
-                            2000,
-                            "linear",
-                            "${canvas}",
-                            '1',
-                            '1.8'
-                        ],
-                        [
-                            "eid148",
-                            "scaleY",
-                            19000,
-                            2000,
-                            "linear",
-                            "${canvas}",
-                            '1',
-                            '1.8'
-                        ],
-                        [
-                            "eid177",
-                            "scaleY",
-                            22000,
-                            2000,
-                            "linear",
-                            "${canvas}",
-                            '1',
-                            '1.8'
-                        ],
-                        [
-                            "eid236",
-                            "scaleY",
-                            25000,
-                            2000,
-                            "linear",
-                            "${canvas}",
-                            '1',
-                            '1.8'
-                        ],
-                        [
-                            "eid257",
-                            "scaleY",
-                            28000,
-                            2000,
-                            "linear",
-                            "${canvas}",
-                            '1',
-                            '1.8'
+                            "${ButtonStart}",
+                            'block',
+                            'none'
                         ],
                         [
                             "eid91",
@@ -1135,8 +1134,7 @@
                             "${perinthia_headline}",
                             '1',
                             '0'
-                        ],
-                            [ "eid318", "trigger", 9000, function executeSymbolFunction(e, data) { this._executeSymbolAction(e, data); }, ['play', '${Haus_Steinbock}', [] ] ]
+                        ]
                     ]
                 }
             },
@@ -1217,16 +1215,15 @@
                 content: {
                     dom: [
                         {
-                            id: 'waldhuette2',
                             type: 'image',
+                            id: 'waldhuette2',
                             rect: ['0px', '0px', '1000px', '1254px', 'auto', 'auto'],
                             fill: ['rgba(0,0,0,0)', 'images/waldhuette.gif', '0px', '0px']
                         }
                     ],
                     style: {
                         '${symbolSelector}': {
-                            isStage: 'true',
-                            rect: [undefined, undefined, '1000px', '1254px']
+                            rect: [null, null, '1000px', '1254px']
                         }
                     }
                 },
@@ -1235,39 +1232,6 @@
                     autoPlay: true,
                     data: [
 
-                    ]
-                }
-            },
-            "Haus_Steinbock": {
-                version: "5.0.1",
-                minimumCompatibleVersion: "5.0.0",
-                build: "5.0.1.386",
-                scaleToFit: "none",
-                centerStage: "none",
-                resizeInstances: false,
-                content: {
-                    dom: [
-                        {
-                            preload: 'auto',
-                            rect: ['0px', '0px', '849px', '1132px', 'auto', 'auto'],
-                            source: ['media/steinbock.mp4'],
-                            id: 'steinbock',
-                            loop: 'loop',
-                            type: 'video',
-                            tag: 'video'
-                        }
-                    ],
-                    style: {
-                        '${symbolSelector}': {
-                            rect: [null, null, '854px', '1139px']
-                        }
-                    }
-                },
-                timeline: {
-                    duration: 0,
-                    autoPlay: true,
-                    data: [
-                            [ "eid317", "trigger", 0, function executeMediaFunction(e, data) { this._executeMediaAction(e, data); }, ['play', '${steinbock}', [] ] ]
                     ]
                 }
             },
@@ -1281,8 +1245,8 @@
                 content: {
                     dom: [
                         {
-                            id: 'haus-waage',
                             type: 'image',
+                            id: 'haus-waage',
                             rect: ['0px', '0px', '854', '1139', 'auto', 'auto'],
                             fill: ['rgba(0,0,0,0)', 'images/haus_waage_newone_small.jpg', '0px', '0px']
                         },
@@ -1297,8 +1261,7 @@
                     ],
                     style: {
                         '${symbolSelector}': {
-                            isStage: 'true',
-                            rect: [undefined, undefined, '854px', '1139px']
+                            rect: [null, null, '854px', '1139px']
                         }
                     }
                 },
@@ -1526,7 +1489,37 @@
                 resizeInstances: false,
                 content: {
                     dom: [
-
+                        {
+                            type: 'rect',
+                            id: 'Rectangle',
+                            stroke: [0, 'rgb(0, 0, 0)', 'none'],
+                            rect: ['-4px', '3px', '854px', '1126px', 'auto', 'auto'],
+                            fill: ['rgba(255,255,255,1.00)']
+                        },
+                        {
+                            rect: ['0px', '0px', '854px', '1139px', 'auto', 'auto'],
+                            id: 'haus_pudding',
+                            type: 'image',
+                            fill: ['rgba(0,0,0,0)', 'images/haus_pudding.jpg', '0px', '0px']
+                        },
+                        {
+                            preload: 'auto',
+                            rect: ['0', '0px', '854px', '1139px', 'auto', 'auto'],
+                            source: ['media/pudding1.mp4', 'images/haus_pudding.jpg', 'images/haus_pudding.jpg', 'images/haus_pudding.jpg', 'images/haus_pudding.jpg', 'images/haus_pudding.jpg', 'images/haus_pudding.jpg', 'images/haus_pudding.jpg', 'images/haus_pudding.jpg', 'images/haus_pudding.jpg', 'images/haus_pudding.jpg', 'images/haus_pudding.jpg', 'images/haus_pudding.jpg', 'images/haus_pudding.jpg', 'images/haus_pudding.jpg', 'images/haus_pudding.jpg', 'images/haus_pudding.jpg', 'images/haus_pudding.jpg', 'images/haus_pudding.jpg', 'images/haus_pudding.jpg'],
+                            id: 'pudding1',
+                            tag: 'video',
+                            type: 'video',
+                            poster: 'images/haus_pudding.jpg'
+                        },
+                        {
+                            preload: 'auto',
+                            type: 'video',
+                            source: ['media/pudding2.mp4'],
+                            id: 'pudding2',
+                            rect: ['0px', '0px', '854px', '1139px', 'auto', 'auto'],
+                            display: 'none',
+                            tag: 'video'
+                        }
                     ],
                     style: {
                         '${symbolSelector}': {
@@ -1538,40 +1531,16 @@
                     duration: 0,
                     autoPlay: true,
                     data: [
-
-                    ]
-                }
-            },
-            "Haus_Hochhaus": {
-                version: "5.0.1",
-                minimumCompatibleVersion: "5.0.0",
-                build: "5.0.1.386",
-                scaleToFit: "none",
-                centerStage: "none",
-                resizeInstances: false,
-                content: {
-                    dom: [
-                        {
-                            autoplay: 'autoplay',
-                            rect: ['190px', '0px', '286px', '820px', 'auto', 'auto'],
-                            source: ['media/hochhaus.mp4'],
-                            id: 'hochhaus',
-                            preload: 'metadata',
-                            type: 'video',
-                            tag: 'video'
-                        }
-                    ],
-                    style: {
-                        '${symbolSelector}': {
-                            rect: [null, null, '665px', '820px']
-                        }
-                    }
-                },
-                timeline: {
-                    duration: 0,
-                    autoPlay: true,
-                    data: [
-
+                        [
+                            "eid390",
+                            "display",
+                            0,
+                            0,
+                            "linear",
+                            "${pudding2}",
+                            'none',
+                            'none'
+                        ]
                     ]
                 }
             },
@@ -1636,10 +1605,83 @@
 
                     ]
                 }
+            },
+            "Haus_Steinbock2": {
+                version: "5.0.1",
+                minimumCompatibleVersion: "5.0.0",
+                build: "5.0.1.386",
+                scaleToFit: "none",
+                centerStage: "none",
+                resizeInstances: false,
+                content: {
+                    dom: [
+                        {
+                            rect: ['0px', '0px', '854px', '1139px', 'auto', 'auto'],
+                            id: 'haus_pudding',
+                            type: 'image',
+                            fill: ['rgba(0,0,0,0)', 'images/haus_steinbock.jpg', '0px', '0px']
+                        },
+                        {
+                            type: 'video',
+                            source: ['media/steinbock.mp4', 'images/haus_steinbock.jpg', 'images/haus_steinbock.jpg', 'images/haus_steinbock.jpg', 'images/haus_steinbock.jpg', 'images/haus_steinbock.jpg', 'images/haus_steinbock.jpg', 'images/haus_steinbock.jpg', 'images/haus_steinbock.jpg', 'images/haus_steinbock.jpg', 'images/haus_steinbock.jpg', 'images/haus_steinbock.jpg', 'images/haus_steinbock.jpg', 'images/haus_steinbock.jpg', 'images/haus_steinbock.jpg', 'images/haus_steinbock.jpg', 'images/haus_steinbock.jpg', 'images/haus_steinbock.jpg', 'images/haus_steinbock.jpg', 'images/haus_steinbock.jpg'],
+                            id: 'pudding1',
+                            poster: 'images/haus_steinbock.jpg',
+                            preload: 'auto',
+                            loop: 'loop',
+                            rect: ['0', '0px', '854px', '1139px', 'auto', 'auto'],
+                            tag: 'video'
+                        }
+                    ],
+                    style: {
+                        '${symbolSelector}': {
+                            rect: [null, null, '854px', '1139px']
+                        }
+                    }
+                },
+                timeline: {
+                    duration: 0,
+                    autoPlay: true,
+                    data: [
+
+                    ]
+                }
+            },
+            "Haus_Hochaus2": {
+                version: "5.0.1",
+                minimumCompatibleVersion: "5.0.0",
+                build: "5.0.1.386",
+                scaleToFit: "none",
+                centerStage: "none",
+                resizeInstances: false,
+                content: {
+                    dom: [
+                        {
+                            preload: 'auto',
+                            rect: ['0px', '0px', '854px', '1139px', 'auto', 'auto'],
+                            source: ['images/hochhaus_destruction.jpg', 'images/hochhaus_destruction.jpg', 'media/hochhaus_destruction.mp4', 'images/hochhaus_destruction.jpg', 'images/hochhaus_destruction.jpg', 'images/hochhaus_destruction.jpg'],
+                            id: 'hochhaus_destruction',
+                            tag: 'video',
+                            type: 'video',
+                            poster: 'images/hochhaus_destruction.jpg'
+                        }
+                    ],
+                    style: {
+                        '${symbolSelector}': {
+                            rect: [null, null, '854px', '1139px']
+                        }
+                    }
+                },
+                timeline: {
+                    duration: 1500,
+                    autoPlay: true,
+                    data: [
+
+                    ]
+                }
             }
         };
 
     AdobeEdge.registerCompositionDefn(compId, symbols, fonts, scripts, resources, opts);
 
     if (!window.edge_authoring_mode) AdobeEdge.getComposition(compId).load("index_edgeActions.js");
-})("EDGE-4595408");
+})("Eric");

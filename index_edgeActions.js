@@ -276,7 +276,9 @@
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 24000, function(sym, e) {
          sym.stop();
          sym.$('cosmos_neu').hide();
-         sym.getSymbol("Haus_Hochaus2").$("hochhaus_destruction")[0].play();
+         
+         // Play a video track 
+         sym.getSymbol("Haus_Hochaus2").$("hochhaus")[0].play();
          
          // Hide an element 
          sym.$("cosmos_neu").hide();
@@ -337,6 +339,12 @@
       Symbol.bindElementAction(compId, symbolName, "${vogelflug_small}", "click", function(sym, e) {
          // insert code for mouse click here
          sym.play("vogel");
+      });
+      //Edge binding end
+
+      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 100, function(sym, e) {
+         console.log('playing bird');
+
       });
       //Edge binding end
 
@@ -440,37 +448,24 @@
    
    //Edge symbol: 'Haus_Steinbock2_1'
    (function(symbolName) {   
-   
+      
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 0, function(sym, e) {
          // insert code here
       });
             //Edge binding end
-
       
-
+      
+      
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 1500, function(sym, e) {
          // insert code here
          // Play a video track 
-         sym.$("hochhaus_destruction")[0].play();
-
+         console.log('sarting video');
+         //sym.$("hochhaus_destruction")[0].play();
+      
       });
       //Edge binding end
-
-      Symbol.bindElementAction(compId, symbolName, "${hochhaus_destruction}", "click", function(sym, e) {
-         sym.getComposition().getStage().getSymbol('cosmos').$("cosmos_neu").show();
-         sym.getComposition().getStage().getSymbol('cosmos').$("cosmos_neu").click();
-         sym.getComposition().getStage().getSymbol("cosmos").stop('anfang2');
-         
-         
-         sym.getComposition().getStage().getSymbol("cosmos").$("sternenGruppe").css({
-            'pointer-events': 'auto'
-         });
-         
-         navigationDisabled = false;
-         
-
-      });
-      //Edge binding end
+      
+      
 
          })("Haus_Hochaus2");
    //Edge symbol end:'Haus_Hochaus2'

@@ -21,6 +21,20 @@
       
       //Edge binding end
 
+      Symbol.bindElementAction(compId, symbolName, "document", "compositionReady", function(sym, e) {
+         // insert code to be run when the composition is fully loaded here
+         $('video').prop('preload', 'none');
+
+      });
+      //Edge binding end
+
+      Symbol.bindSymbolAction(compId, symbolName, "creationComplete", function(sym, e) {
+         // insert code to be run when the symbol is created here
+         $('video').prop('preload', 'none');
+
+      });
+      //Edge binding end
+
    })("stage");
    //Edge symbol end:'stage'
 
@@ -38,11 +52,11 @@
       
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 9000, function(sym, e) {
          sym.stop();
-         sym.$('cosmos_neu').hide();
-         sym.getSymbol("Haus_Steinbock2").$("pudding1")[0].play();
          
-         // Hide an element 
-         sym.$("cosmos_neu").hide();
+         // Play a video track 
+         sym.getSymbol("Haus_Steinbock2").$("steinbock")[0].play();
+         sym.getSymbol("Haus_Steinbock2").play();
+         
          
 
       });
@@ -275,14 +289,11 @@
       
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 24000, function(sym, e) {
          sym.stop();
-         sym.$('cosmos_neu').hide();
-         
+         console.log('starting hochhaus');
          // Play a video track 
          sym.getSymbol("Haus_Hochaus2").$("hochhaus")[0].play();
          
-         // Hide an element 
-         sym.$("cosmos_neu").hide();
-         
+         sym.getSymbol("Haus_Hochaus2").play();
 
       });
       //Edge binding end
@@ -396,6 +407,15 @@
       });
       //Edge binding end
 
+      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 500, function(sym, e) {
+         // insert code here
+         // Play a video track 
+         console.log('playing pdduing');
+         sym.$("pudding1")[0].play();
+
+      });
+      //Edge binding end
+
    })("Haus_Pudding");
    //Edge symbol end:'Haus_Pudding'
 
@@ -425,21 +445,7 @@
       });
          //Edge binding end
 
-      Symbol.bindElementAction(compId, symbolName, "${pudding1}", "click", function(sym, e) {
-         sym.getComposition().getStage().getSymbol('cosmos').$("cosmos_neu").show();
-         sym.getComposition().getStage().getSymbol('cosmos').$("cosmos_neu").click();
-         sym.getComposition().getStage().getSymbol("cosmos").stop('anfang2');
-         
-         
-         sym.getComposition().getStage().getSymbol("cosmos").$("sternenGruppe").css({
-            'pointer-events': 'auto'
-         });
-         
-         navigationDisabled = false;
-         
-
-      });
-         //Edge binding end
+      
 
       })("Haus_Steinbock2");
    //Edge symbol end:'Haus_Steinbock2'
@@ -457,11 +463,12 @@
       
       
       Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 1500, function(sym, e) {
-         // insert code here
          // Play a video track 
-         console.log('sarting video');
-         //sym.$("hochhaus_destruction")[0].play();
-      
+         console.log('starting video');
+         
+         // Play a video track 
+         sym.$("hochhaus")[0].play();
+
       });
       //Edge binding end
       

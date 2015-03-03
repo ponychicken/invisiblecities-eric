@@ -46,7 +46,7 @@
                     }
                 },
                 timeline: {
-                    duration: 0,
+                    duration: 1500,
                     autoPlay: true,
                     data: [
 
@@ -155,9 +155,10 @@
                             fill: ['rgba(0,0,0,0)', 'images/perinthia_text_vonhand_small.png', '0px', '0px']
                         },
                         {
-                            id: 'sternenGruppe',
-                            type: 'group',
                             rect: ['242', '130', '2430', '2209', 'auto', 'auto'],
+                            id: 'sternenGruppe',
+                            opacity: '0',
+                            type: 'group',
                             c: [
                             {
                                 rect: ['-30px', '-25px', '372', '312', 'auto', 'auto'],
@@ -515,6 +516,176 @@
                             "${Haus_Plateau}",
                             'block',
                             'none'
+                        ],
+                        [
+                            "eid404",
+                            "opacity",
+                            4000,
+                            2000,
+                            "linear",
+                            "${sternenGruppe}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid405",
+                            "opacity",
+                            6000,
+                            1000,
+                            "linear",
+                            "${sternenGruppe}",
+                            '0.000000',
+                            '1'
+                        ],
+                        [
+                            "eid406",
+                            "opacity",
+                            7000,
+                            2000,
+                            "linear",
+                            "${sternenGruppe}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid407",
+                            "opacity",
+                            9000,
+                            1000,
+                            "linear",
+                            "${sternenGruppe}",
+                            '0.000000',
+                            '1'
+                        ],
+                        [
+                            "eid408",
+                            "opacity",
+                            10000,
+                            2037,
+                            "linear",
+                            "${sternenGruppe}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid409",
+                            "opacity",
+                            12037,
+                            963,
+                            "linear",
+                            "${sternenGruppe}",
+                            '0.000000',
+                            '1'
+                        ],
+                        [
+                            "eid410",
+                            "opacity",
+                            13000,
+                            2000,
+                            "linear",
+                            "${sternenGruppe}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid411",
+                            "opacity",
+                            15000,
+                            1000,
+                            "linear",
+                            "${sternenGruppe}",
+                            '0.000000',
+                            '1'
+                        ],
+                        [
+                            "eid412",
+                            "opacity",
+                            16000,
+                            2000,
+                            "linear",
+                            "${sternenGruppe}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid413",
+                            "opacity",
+                            18000,
+                            1000,
+                            "linear",
+                            "${sternenGruppe}",
+                            '0.000000',
+                            '1'
+                        ],
+                        [
+                            "eid414",
+                            "opacity",
+                            19000,
+                            2000,
+                            "linear",
+                            "${sternenGruppe}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid415",
+                            "opacity",
+                            21000,
+                            1000,
+                            "linear",
+                            "${sternenGruppe}",
+                            '0.000000',
+                            '1'
+                        ],
+                        [
+                            "eid416",
+                            "opacity",
+                            22000,
+                            2000,
+                            "linear",
+                            "${sternenGruppe}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid417",
+                            "opacity",
+                            24000,
+                            1000,
+                            "linear",
+                            "${sternenGruppe}",
+                            '0.000000',
+                            '1'
+                        ],
+                        [
+                            "eid418",
+                            "opacity",
+                            25000,
+                            2000,
+                            "linear",
+                            "${sternenGruppe}",
+                            '1',
+                            '0'
+                        ],
+                        [
+                            "eid419",
+                            "opacity",
+                            27000,
+                            1000,
+                            "linear",
+                            "${sternenGruppe}",
+                            '0.000000',
+                            '1'
+                        ],
+                        [
+                            "eid420",
+                            "opacity",
+                            28000,
+                            2000,
+                            "linear",
+                            "${sternenGruppe}",
+                            '1',
+                            '0'
                         ],
                         [
                             "eid10",
@@ -1156,11 +1327,18 @@
                             opacity: '1',
                             type: 'image',
                             fill: ['rgba(0,0,0,0)', 'images/haus_krebs_klein-new.jpg', '0px', '0px']
+                        },
+                        {
+                            id: 'sterne_krebs_small',
+                            type: 'image',
+                            rect: ['236px', '390px', '381px', '306px', 'auto', 'auto'],
+                            fill: ['rgba(0,0,0,0)', 'images/sterne_krebs_small.gif', '0px', '0px']
                         }
                     ],
                     style: {
                         '${symbolSelector}': {
-                            rect: [null, null, '854px', '1139px']
+                            isStage: 'true',
+                            rect: [undefined, undefined, '854px', '1139px']
                         }
                     }
                 },
@@ -1182,21 +1360,28 @@
                 content: {
                     dom: [
                         {
-                            type: 'image',
                             id: 'hauszwilling_ohneschaukel-new',
+                            type: 'image',
                             rect: ['0px', '-2px', '706px', '1006px', 'auto', 'auto'],
                             fill: ['rgba(0,0,0,0)', 'images/hauszwilling_ohneschaukel-new.jpg', '0px', '0px']
                         },
                         {
-                            type: 'image',
                             id: 'zwillinge_schaukeln-new',
+                            type: 'image',
                             rect: ['502px', '560px', '188px', '171px', 'auto', 'auto'],
                             fill: ['rgba(0,0,0,0)', 'images/zwillinge_schaukeln-new.gif', '0px', '0px']
+                        },
+                        {
+                            id: 'sterne_zwilling_small',
+                            type: 'image',
+                            rect: ['194px', '134px', '319px', '321px', 'auto', 'auto'],
+                            fill: ['rgba(0,0,0,0)', 'images/sterne_zwilling_small.gif', '0px', '0px']
                         }
                     ],
                     style: {
                         '${symbolSelector}': {
-                            rect: [null, null, '706px', '1001px']
+                            isStage: 'true',
+                            rect: [undefined, undefined, '706px', '1001px']
                         }
                     }
                 },
@@ -1218,15 +1403,16 @@
                 content: {
                     dom: [
                         {
-                            rect: ['0px', '0px', '1000px', '1254px', 'auto', 'auto'],
                             id: 'waldhuette2',
                             type: 'image',
+                            rect: ['0px', '0px', '1000px', '1254px', 'auto', 'auto'],
                             fill: ['rgba(0,0,0,0)', 'images/waldhuette.gif', '0px', '0px']
                         }
                     ],
                     style: {
                         '${symbolSelector}': {
-                            rect: [null, null, '1000px', '1254px']
+                            isStage: 'true',
+                            rect: [undefined, undefined, '1000px', '1254px']
                         }
                     }
                 },
@@ -1260,6 +1446,12 @@
                             type: 'image',
                             clip: 'rect(0px 180px 220px 0px)',
                             fill: ['rgba(0,0,0,0)', 'images/vogelflug_small.png', '0px', '0px']
+                        },
+                        {
+                            id: 'haus_waage_newone_sterne',
+                            type: 'image',
+                            rect: ['270px', '565px', '292px', '245px', 'auto', 'auto'],
+                            fill: ['rgba(0,0,0,0)', 'images/haus_waage_newone_sterne.gif', '0px', '0px']
                         }
                     ],
                     style: {
@@ -1501,38 +1693,40 @@
                             fill: ['rgba(255,255,255,1.00)']
                         },
                         {
-                            type: 'image',
                             id: 'haus_pudding',
+                            type: 'image',
                             rect: ['0px', '0px', '854px', '1139px', 'auto', 'auto'],
                             fill: ['rgba(0,0,0,0)', 'images/haus_pudding.jpg', '0px', '0px']
                         },
                         {
-                            preload: 'auto',
+                            preload: 'metadata',
                             rect: ['0', '0px', '854px', '1139px', 'auto', 'auto'],
-                            source: ['media/pudding1.mp4', 'images/haus_pudding.jpg', 'images/haus_pudding.jpg', 'images/haus_pudding.jpg', 'images/haus_pudding.jpg', 'images/haus_pudding.jpg', 'images/haus_pudding.jpg', 'images/haus_pudding.jpg', 'images/haus_pudding.jpg', 'images/haus_pudding.jpg', 'images/haus_pudding.jpg', 'images/haus_pudding.jpg', 'images/haus_pudding.jpg', 'images/haus_pudding.jpg', 'images/haus_pudding.jpg', 'images/haus_pudding.jpg', 'images/haus_pudding.jpg', 'images/haus_pudding.jpg', 'images/haus_pudding.jpg', 'images/haus_pudding.jpg', 'images/haus_pudding.jpg', 'images/haus_pudding.jpg', 'images/haus_pudding.jpg', 'images/haus_pudding.jpg'],
+                            source: ['media/pudding1.mp4', 'images/haus_pudding.jpg'],
                             id: 'pudding1',
                             poster: 'images/haus_pudding.jpg',
                             type: 'video',
                             tag: 'video'
                         },
                         {
-                            preload: 'auto',
+                            preload: 'metadata',
                             type: 'video',
-                            source: ['media/pudding2.mp4'],
+                            source: ['media/pudding2.mp4', 'images/pudding2_video_poster.png'],
+                            poster: 'images/pudding2_video_poster.png',
                             id: 'pudding2',
                             rect: ['0px', '0px', '854px', '1139px', 'auto', 'auto'],
-                            display: 'none',
+                            display: 'block',
                             tag: 'video'
                         }
                     ],
                     style: {
                         '${symbolSelector}': {
-                            rect: [null, null, '854px', '1139px']
+                            isStage: 'true',
+                            rect: [undefined, undefined, '854px', '1139px']
                         }
                     }
                 },
                 timeline: {
-                    duration: 0,
+                    duration: 500,
                     autoPlay: true,
                     data: [
                         [
@@ -1542,8 +1736,8 @@
                             0,
                             "linear",
                             "${pudding2}",
-                            'none',
-                            'none'
+                            'block',
+                            'block'
                         ]
                     ]
                 }
@@ -1558,16 +1752,17 @@
                 content: {
                     dom: [
                         {
-                            transform: [[], [], [], ['0.5', '0.5']],
-                            id: 'poolhouse_withoutstar2',
-                            type: 'image',
                             rect: ['-517px', '-512px', '2070px', '2048px', 'auto', 'auto'],
+                            id: 'poolhouse_withoutstar2',
+                            transform: [[], [], [], ['0.5', '0.5']],
+                            type: 'image',
                             fill: ['rgba(0,0,0,0)', 'images/poolhouse_withoutstar.gif', '0px', '0px']
                         }
                     ],
                     style: {
                         '${symbolSelector}': {
-                            rect: [null, null, '1035px', '1024px']
+                            isStage: 'true',
+                            rect: [undefined, undefined, '1035px', '1024px']
                         }
                     }
                 },
@@ -1589,16 +1784,23 @@
                 content: {
                     dom: [
                         {
-                            transform: [[], [], [], ['0.3', '0.3']],
-                            id: 'plateau_fin_ohnesterne',
-                            type: 'image',
                             rect: ['-1014px', '-1352px', '2898', '3864', 'auto', 'auto'],
+                            id: 'plateau_fin_ohnesterne',
+                            transform: [[], [], [], ['0.3', '0.3']],
+                            type: 'image',
                             fill: ['rgba(0,0,0,0)', 'images/plateau_fin_ohnesterne.gif', '0px', '0px']
+                        },
+                        {
+                            id: 'plateau_fin_sterne2',
+                            type: 'image',
+                            rect: ['544px', '857px', '141px', '104px', 'auto', 'auto'],
+                            fill: ['rgba(0,0,0,0)', 'images/plateau_fin_sterne2.gif', '0px', '0px']
                         }
                     ],
                     style: {
                         '${symbolSelector}': {
-                            rect: [null, null, '869px', '1159px']
+                            isStage: 'true',
+                            rect: [undefined, undefined, '869px', '1159px']
                         }
                     }
                 },
@@ -1620,25 +1822,26 @@
                 content: {
                     dom: [
                         {
-                            type: 'image',
-                            id: 'haus_pudding',
-                            rect: ['0px', '0px', '854px', '1139px', 'auto', 'auto'],
-                            fill: ['rgba(0,0,0,0)', 'images/haus_steinbock.jpg', '0px', '0px']
+                            preload: 'metadata',
+                            rect: ['0', '0', '854px', '1139px', 'auto', 'auto'],
+                            source: ['media/steinbock.mp4', 'images/steinbock_video_poster.png'],
+                            poster: 'images/steinbock_video_poster.png',
+                            id: 'steinbock',
+                            loop: 'loop',
+                            type: 'video',
+                            tag: 'video'
                         },
                         {
-                            type: 'video',
-                            source: ['media/steinbock.mp4', 'images/haus_steinbock.jpg', 'images/haus_steinbock.jpg', 'images/haus_steinbock.jpg', 'images/haus_steinbock.jpg', 'images/haus_steinbock.jpg', 'images/haus_steinbock.jpg', 'images/haus_steinbock.jpg', 'images/haus_steinbock.jpg', 'images/haus_steinbock.jpg', 'images/haus_steinbock.jpg', 'images/haus_steinbock.jpg', 'images/haus_steinbock.jpg', 'images/haus_steinbock.jpg', 'images/haus_steinbock.jpg', 'images/haus_steinbock.jpg', 'images/haus_steinbock.jpg', 'images/haus_steinbock.jpg', 'images/haus_steinbock.jpg', 'images/haus_steinbock.jpg', 'images/haus_steinbock.jpg', 'images/haus_steinbock.jpg', 'images/haus_steinbock.jpg', 'images/haus_steinbock.jpg'],
-                            id: 'pudding1',
-                            poster: 'images/haus_steinbock.jpg',
-                            preload: 'auto',
-                            loop: 'loop',
-                            rect: ['0', '0px', '854px', '1139px', 'auto', 'auto'],
-                            tag: 'video'
+                            id: 'sterne_steinbock__small',
+                            type: 'image',
+                            rect: ['367px', '519px', '134px', '220px', 'auto', 'auto'],
+                            fill: ['rgba(0,0,0,0)', 'images/sterne_steinbock%20_small.gif', '0px', '0px']
                         }
                     ],
                     style: {
                         '${symbolSelector}': {
-                            rect: [null, null, '854px', '1139px']
+                            isStage: 'true',
+                            rect: [undefined, undefined, '854px', '1139px']
                         }
                     }
                 },
@@ -1661,9 +1864,10 @@
                     dom: [
                         {
                             preload: 'metadata',
-                            rect: ['-118px', '25px', '1150px', '1089px', 'auto', 'auto'],
-                            source: ['media/hochhaus.mp4'],
+                            rect: ['-89px', '75px', '1044px', '989px', 'auto', 'auto'],
+                            source: ['media/hochhaus.mp4', 'images/hochhaus-snap.jpg', 'images/hochhaus-snap.jpg', 'images/hochhaus-snap.jpg', 'images/hochhaus-snap.jpg'],
                             id: 'hochhaus',
+                            poster: 'images/hochhaus-snap.jpg',
                             type: 'video',
                             tag: 'video'
                         }
